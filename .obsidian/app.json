@@ -1,0 +1,21 @@
+{
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "spellcheckLanguages": null,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "vimMode": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./Attachments",
+  "showFrontmatter": false,
+  "showInlineTitle": false,
+  "promptDelete": false,
+  "trashOption": "local",
+  "livePreview": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

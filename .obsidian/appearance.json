@@ -1,0 +1,16 @@
+{
+  "baseFontSize": 20,
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "translucency": false,
+  "textFontFamily": "CodeNewRoman Nerd Font Mono",
+  "interfaceFontFamily": "Noto Sans",
+  "monospaceFontFamily": "CodeNewRoman Nerd Font Mono",
+  "baseFontSizeAction": true,
+  "accentColor": "",
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "pagebreak"
+  ]
+}
