@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"11ae0d0d1b7020a5","type":"text","text":"Здоров'я","x":-225,"y":-40,"width":156,"height":57},
+		{"id":"515c76ec239331cb","type":"text","text":"Харчування","x":91,"y":-125,"width":176,"height":53},
+		{"id":"d02fec83e99f81ea","type":"text","text":"Фізична активність","x":-530,"y":-140,"width":178,"height":83},
+		{"id":"e890fcf36987ff78","type":"text","text":"Сон","x":-10,"y":158,"width":108,"height":60},
+		{"id":"6e3bd713c59c5356","type":"text","text":"Режим дня","x":-225,"y":-304,"width":170,"height":60},
+		{"id":"07b903aae1473f79","type":"text","text":"Вибрати активність до кінця вересня:\n- [[Футбол]]\n- [[Скелелазіння]]\n- Щось інше","x":-715,"y":57,"width":285,"height":218},
+		{"id":"102899126b627371","type":"text","text":"Продовжувати ходити пішки по можливості","x":-898,"y":-262,"width":261,"height":115},
+		{"id":"fc586fca06d2ff6c","type":"text","text":"Продовжувати спати так. Можливо, намагатися кожного дня спати $\\ge 8$ годин(зараз переважно 7.5-8 годин)","x":-79,"y":304,"width":412,"height":159},
+		{"id":"2d70db909ea04095","type":"text","text":"Поговорити до кінця тижня із мамою щодо сніданку та вечері","x":408,"y":-242,"width":282,"height":148},
+		{"id":"44b35688f6bd0a8f","type":"text","text":"Нічого не змінювати із харчуванням у трапезній","x":416,"y":-11,"width":278,"height":125},
+		{"id":"042b89802e623247","type":"text","text":"Вирівняти графік зарядки зранку: як мінімум 5 разів на тиждень","x":-97,"y":-545,"width":337,"height":128},
+		{"id":"82bd7dad6ec5fe65","type":"text","text":"Відмовляти [[Опир Богдан|Богданові]], коли той хоче балакати багато замість роблення домашнього","x":-623,"y":-524,"width":409,"height":134},
+		{"id":"7f4cb90374e1e112","type":"text","text":"Точно не зал, адже він недостатньо цікавий, аби мотивувати","x":-730,"y":376,"width":319,"height":112},
+		{"id":"f2abd23f0c8d3570","type":"text","text":"Зважаючи на колесо здоров'я та цю ілюстрацію, найпріоритетнішими є Режим дня, Фізична активність та Харчування.\n\nУже є певні ідеї для них, які треба імплементувати до зазначених термінів.\nРешта є не настільки нагальними, але все ще є, куди рости. По можливості, їх теж треба буде покращувати","x":-641,"y":581,"width":1116,"height":205}
+	],
+	"edges":[
+		{"id":"ae29e67e0f7601ea","fromNode":"11ae0d0d1b7020a5","fromSide":"top","toNode":"6e3bd713c59c5356","toSide":"bottom"},
+		{"id":"3e2e2f7b32641d87","fromNode":"11ae0d0d1b7020a5","fromSide":"right","toNode":"515c76ec239331cb","toSide":"left"},
+		{"id":"c06848bc1c2b0b09","fromNode":"11ae0d0d1b7020a5","fromSide":"left","toNode":"d02fec83e99f81ea","toSide":"bottom"},
+		{"id":"e4062dcf7940ecda","fromNode":"11ae0d0d1b7020a5","fromSide":"bottom","toNode":"e890fcf36987ff78","toSide":"top"},
+		{"id":"77f12e6884012e24","fromNode":"d02fec83e99f81ea","fromSide":"left","toNode":"07b903aae1473f79","toSide":"top"},
+		{"id":"ed6974d5bfde0dd4","fromNode":"07b903aae1473f79","fromSide":"bottom","toNode":"7f4cb90374e1e112","toSide":"top"},
+		{"id":"c91d86d3aa0ae949","fromNode":"d02fec83e99f81ea","fromSide":"left","toNode":"102899126b627371","toSide":"right"},
+		{"id":"90690bd031c9f59f","fromNode":"e890fcf36987ff78","fromSide":"bottom","toNode":"fc586fca06d2ff6c","toSide":"top"},
+		{"id":"c5776043e7384fbd","fromNode":"515c76ec239331cb","fromSide":"right","toNode":"2d70db909ea04095","toSide":"left"},
+		{"id":"93854a27910c079c","fromNode":"515c76ec239331cb","fromSide":"right","toNode":"44b35688f6bd0a8f","toSide":"left"},
+		{"id":"4b24f69d1077ecd8","fromNode":"6e3bd713c59c5356","fromSide":"top","toNode":"042b89802e623247","toSide":"bottom"},
+		{"id":"522ed57512f7e237","fromNode":"6e3bd713c59c5356","fromSide":"top","toNode":"82bd7dad6ec5fe65","toSide":"bottom"}
+	]
+}
