@@ -1,0 +1,13 @@
+# Ignore plugins and workspace files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+.obsidian/plugins/smart-connections/data.json
+.obsidian/plugins/companion/data.json
+
+# Ignore trash
+.trash
+
+# Ignore Smart Connections folder because embeddings file is large and updated frequently
+.smart-connections
