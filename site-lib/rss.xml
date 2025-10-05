@@ -1,10 +1,63 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Conspectus]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://conspectus.r1a.nl</link><image><url>https://conspectus.r1a.nl/site-lib/media/favicon.png</url><title>Conspectus</title><link>https://conspectus.r1a.nl</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 14 Sep 2025 06:42:20 GMT</lastBuildDate><atom:link href="https://conspectus.r1a.nl/site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 14 Sep 2025 06:42:12 GMT</pubDate><copyright><![CDATA[rad1an]]></copyright><ttl>60</ttl><dc:creator>rad1an</dc:creator><item><title><![CDATA[Подарунки]]></title><description><![CDATA[Стус, Семенко, Світличний збірки
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Conspectus]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://conspectus.r1a.nl</link><image><url>https://conspectus.r1a.nl/site-lib/media/favicon.png</url><title>Conspectus</title><link>https://conspectus.r1a.nl</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 05 Oct 2025 17:40:35 GMT</lastBuildDate><atom:link href="https://conspectus.r1a.nl/site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 05 Oct 2025 17:40:28 GMT</pubDate><copyright><![CDATA[rad1an]]></copyright><ttl>60</ttl><dc:creator>rad1an</dc:creator><item><title><![CDATA[Типографія]]></title><description><![CDATA[це мистецтво впорядковувати інформацію
+(щоб було розбірливе, легке для читання, красиве)x-height - висота ряду (baseline - літера "x")
+Базово: шрифти поєднуються, коли висота збігаєтьсяЄ ще висота великих літер (напр "R"), високих засічок ("l"), низьких засічок ("y")Розмір 14px - піксель не має сильно сенсу, бо там вектор
+Краще казати 14 кегль чи 14 points/пунктівКоли людина переходить на новий рядок, робить діагональний стрибок очима
+Якщо ширина блоку тексту велика, то кут цієї діагоналі дуже гострий - людина губиться
+Найкраща ширина - ~45-75 символівМіжрядковий інтервал - базово добре 1.5 (це означає, якщо шрифт 14px, то інтервал 14*1.5)
+Для заголовків 1-1.2 (чи просто де &lt;=4 рядків)Кернінг - розмір пропуску між двома конкретними символами
+Зазвичай наперед закладено шрифтом і програми не дають міняти
+Якщо треба (напр для логотипа), то перевести у вектор та рухати вже векторні зображення
+Деякі літери можуть між собою погано метчитися, коли разом (напр "AY" vs "HR" має більше місця)
+Щоб об'єктивніше подивитися на простір:
+збити мозок, можна перевернути й подивитися
+взяти білий фон та блюрити на ньому текст
+Зазвичай закладають під нижній реєстр
+Якщо щось КАПСОМ, то варто збільшити трекінг - відстань між всіма символами, загальне налаштування
+Вирівнювання
+&lt;=4 рядків - який зручніше, гарніше
+Більше - варто вирівнювання по лівому (око завжди знає, де початок - легше читати)Якщо є в ряд кнопка і текст, то варто вирівнювати по base level - низ текстового рядка (тобто низ "х")Вибір основного шрифту. Має бути:
+І маленький, і великий зручний
+Підтримуватися різними пристроями
+Ліценція і тд
+Якщо точно, то "шрифт" - це саме "Назва, Semi Bold". Сама та назва - це гарнітураfontjoy.com - можна подивитися, як поєднуються шрифти
+В ідеалі це має бути одна суперсім'я
+(пам'ятати про однакову висоту рядка, якщо не одна суперсім'я)]]></description><link>https://conspectus.r1a.nl/уку/дизайн/типографія.html</link><guid isPermaLink="false">УКУ/Дизайн/Типографія.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 02 Oct 2025 12:31:05 GMT</pubDate></item><item><title><![CDATA[Вступ до текстів]]></title><description><![CDATA[Викидати слова, що абстрактні, не несуть самі по собі семантики
+Воно є добрим - воно добре
+Я перебуваю в авдиторії
+Під час прослуховування лекції, я записував нотатки (тут саме по собі слово має значення, але в контексті втрачає)Дієслова &gt; віддієслівні іменники (вони книжні зазвичай)
+Обговорювати гарно &gt; Обговорення гарнеПасиви
+Аналізи збиралися (-) vs Студенти збиралися (+)
+Замінити:
+збирали
+збирано
+були зібрані
+Так менше неоднозначності
+Роботу написано Дмитром - наче безособове, але особа є, не варто
+Якщо кілька слів однакової частини мови, можна розбавити іншими, і ймовірно текст стане протікати краще (особливо коли багато таких слів)
+Провінція Франції - Французька провінціяУникати багатозначних слів (загалом)Якщо можна уникнути сполучника, краще забрати]]></description><link>https://conspectus.r1a.nl/уку/тексти/вступ-до-текстів.html</link><guid isPermaLink="false">УКУ/Тексти/Вступ до текстів.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Tue, 30 Sep 2025 12:35:06 GMT</pubDate></item><item><title><![CDATA[Мобільний дизайн]]></title><description><![CDATA[Мінімізувати вихід користувача з додатка - люди й так мають короткі сесії телефонів, а так якщо виходитимуть, то ймовірно забудуть вернутися
+Напр, додати natural search, щоб не треба було гуглити точну назвуНабагато легше розширити контент для більших екранів, ніж звузити для меншихНедоліки:
+Не стабільне з'єднання
+Переривання від інших додатків
+Маленький екран
+Єдиний view
+Сенсорний екран
+iOS та Android часто мають різні патерни
+Користувачі менше люблять кросплатформові додаткиЧерез складності зазвичай краще зробити сайт з мобільною версією
+Треба додаток, якщо:
+Повторювані часті користувачі (умовно квитки на театр рідко купують)
+Коли треба різні сенсори
+Офлайн
+Треба швидкий доступ до додатка
+Велика перевага - різні датчики, в т.ч. gpsЧим ближче кнопка до периферії, тим більша має бути клікабельна зона
+Бо тим тяжче там людям влучатиЗазвичай найкраща навігація - bottom barВводити текст на телефоні тяжко
+Краще GPS, камера, буфер обміну тощоДумати маленькими екранами, а не купа інфи не одномуВарто уявляти, наче взаємодія відбувається в реальному світі (умовно з касиром замість е-комерс)
+Так легше зрозуміти, чи людині ок з такою взаємодією]]></description><link>https://conspectus.r1a.nl/уку/дизайн/мобільний-дизайн.html</link><guid isPermaLink="false">УКУ/Дизайн/Мобільний дизайн.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 25 Sep 2025 12:56:47 GMT</pubDate></item><item><title><![CDATA[Теорія керування]]></title><link>https://conspectus.r1a.nl/уку/теорія-керування/теорія-керування.html</link><guid isPermaLink="false">УКУ/Теорія керування/Теорія керування.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 14:56:00 GMT</pubDate></item><item><title><![CDATA[Кускова неперервність]]></title><description><![CDATA[ - кусково неперервна - приблизно те ж, що й просто неперервність, але можуть бути точки розриву(але скінченна кількість)Наприклад−10−8−6−4−20246810−10−8−6−4−20246810xy−10−8−6−4−20246810−10−8−6−4−20246810xy]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/кускова-неперервність.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Кускова неперервність.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 14:54:28 GMT</pubDate></item><item><title><![CDATA[Подарунки]]></title><description><![CDATA[Стус, Семенко, Світличний збірки
 Тематична книга з рецептами (фільм, гра, тощо)
 Днд кубики
 Невеличка багаторазова пляшка до ~22см висоти
 Прозорий замок з інструментами, аби навчитися взламувати
+Велосипед; можливо електричний
 Приладдя для в'язання?
-Велосипед?
 3д принтер? bambu lab a1 mini combo
 пульт для дрона?
 ігровий контролер?Чай
@@ -17,7 +70,64 @@ mismatched наклейки
 скельники
 Складний ніж
 кращий розумний годинник
-"<a data-tooltip-position="top" aria-label="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" target="_self">Іде звізда чудна</a>" (чи щось таке)]]></description><link>https://conspectus.r1a.nl/життя/fun/подарунки.html</link><guid isPermaLink="false">Життя/Fun/Подарунки.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sat, 13 Sep 2025 19:35:23 GMT</pubDate></item><item><title><![CDATA[Тексти дз1]]></title><description><![CDATA[I am not a consultant; I am an insultant.Я не порадник - я (є) зневажник
+"<a data-tooltip-position="top" aria-label="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" target="_self">Іде звізда чудна</a>" (чи щось таке)]]></description><link>https://conspectus.r1a.nl/життя/fun/подарунки.html</link><guid isPermaLink="false">Життя/Fun/Подарунки.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 12:02:32 GMT</pubDate></item><item><title><![CDATA[Гарні практики]]></title><description><![CDATA[Закон Якоба: користувачі кумулятивно більшість часу проведуть в конкурентів
+Аналогічно: відносно поточної сторінки, більшість часу на інших сторінках цього продукту
+Варто не руйнувати уявлення людей про те, як користуватися, в порівнянні з іншими сторінками, конкурентамиError prevention
+Error recoveryПлейсхолдери в полях вводу зазвичай - зле. Хтось подумає ще, що щось уже введеноБажано переводити складність з користувача на систему (за можливості)
+Особливо коли легко помилитисяRecognition &gt; recall
+Краще, аби людина бачила варіанти і вибирала, аніж намагалася згадати, де саме знайти
+Напр краще важливі іконки згори, ніж різні менюшки, і хз, де потрібнеАле давати більше можливостей, хай і трохи тяжче дістатися них, все одно варто]]></description><link>https://conspectus.r1a.nl/уку/дизайн/гарні-практики.html</link><guid isPermaLink="false">УКУ/Дизайн/Гарні практики.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 18 Sep 2025 11:50:56 GMT</pubDate></item><item><title><![CDATA[Психологія сприйняття]]></title><description><![CDATA[Гештальтпсихологія - досліджує сприйняття та мислення людиниМентальні зусилля:
+Когнітивне навантаження - чи ти все знаєш, що воно робить і як користуватися/чи пояснено
+Візуальне: Співвідношення контент/візуальне оформлення
+У т.ч. співвідношення корисна інформація/навігація Моторне навантаження - чи багато дій треба зробити
+Зовнішнє навантаження - подразники, що заважають ззовні
+На що орієнтується дизайнер при створенні:
+Цілі користувача
+Бізнес цілі
+Технічні обмеження
+Люди зазвичай сприймають:
+Спершу загальну картину
+Потім конкретні елементи
+Сприймається фігура та фон
+Якщо фігур кілька, то або одна стане частиною фону, або буде інтерфейс ментально поділений на два окремі світиСиметричне частіше сприймається як фігура
+Асиметричне як фонЯк виділити:
+Контрастний колір
+Тінь
+Напівпрозорий шар/блюр (напр задній фон при попапах стає темнішим)
+Перекриття
+Групування:
+Близькі елементи в одній групі; відстань відгруповує Відступи всередині групи мають бути меншими за відступи з іншими елементами (і це також означає, чим більший рівень групи (група інших груп), тим більші відступи) Роздільники
+Структурно (напр в одній паралельній лінії; чимось з'єднані тощо)
+Синхронно (об'єкти одночасно щось роблять, напр у всіх з'являється квадратик для виділення)
+Об'єкт набуває схожих характеристик, як інший, якщо:
+Помістити поруч щось з певними характеристиками
+Схожого розміру
+Основна кнопка має відрізнятися від іншихЯкщо багато схожого, складно знайти трохи відмінне
+Якщо купа елементів зі статусами, і більшість є "Активний", а кілька з попередженнями, то можна не показувати активні, а лише особливі - легше знайти
+Гарний спосіб зображення - аналогія до реального світуКористувачу добре давати відчуття свободи
+В тому числі свобода повернутися, відмінити]]></description><link>https://conspectus.r1a.nl/уку/дизайн/психологія-сприйняття.html</link><guid isPermaLink="false">УКУ/Дизайн/Психологія сприйняття.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 18 Sep 2025 11:23:03 GMT</pubDate></item><item><title><![CDATA[Тексти дз2]]></title><description><![CDATA[Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.Пробував. Провалювався. Не важливо. Спробуй ще. Провались ще. Провались краще.]]></description><link>https://conspectus.r1a.nl/уку/тексти/тексти-дз2.html</link><guid isPermaLink="false">УКУ/Тексти/Тексти дз2.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 17 Sep 2025 10:16:17 GMT</pubDate></item><item><title><![CDATA[Одяг]]></title><description><![CDATA[Футболка гарно має сидіти; не дуже довга
+На верх варто додавати сорочку, кардиган тощо для широкости
+Також якісь принти тощо для привернення уваги згориНиз має гарно сидіти, але не облягати
+Десь straight fit
+Якщо шорти, то довшіБільшість в нейтральних кольорах:
+білий, чорний, сірий
+наві (темно-синій, трохи фіолетового)
+оливковий
+хакі/верблюжий
+коричневий
+(Бажано мені верх) можна дрібку щось виділяльне, як-от принтЯк змішувати:
+Суміжні кольори, різні відтінки (частіше працює)
+Протилежні кольори (не завжди працює, треба дивитися)
+Дивитись, щоб було багато менших швів, а не довгі і менше
+Можна перевірити:
+Направити з'єднання тканин на світло
+Намагатись трохи розсунути та побачити проблиски
+Їх не має бути видно
+Візерунки мають сходитися на стиках (де це можливо з візерунком та формою)Де вільні нитки - зле<a data-tooltip-position="top" aria-label="Serged edges.png" data-href="Serged edges.png" href="https://conspectus.r1a.nl/життя/attachments/serged-edges.png" class="internal-link" target="_self" rel="noopener nofollow">оверлочні краї</a> на важливих для міцності місцях - зле<br>
+<img alt="Serged edges.png" src="https://conspectus.r1a.nl/життя/attachments/serged-edges.png" target="_self" style="width: 500px; max-width: 100%;">Більші блискавкиОсобливо якщо щось більш кравецьке, то має бути покриття зсерединиСам матеріал має бути максимально однорідним (переплетення в ньому не мають в якихось місцях бути ширшими, в якихось вужчими і т.д.)Природні рослинні матеріали, нещільне плетіння - добре для спеки
+Вовна (шерсть), цупкий шовк, щільні тканини - для холоду
+Штучні погано пропускають повітря - краще не біля шкіри (і зле для довкілля)Шерсть не завжди колюча й неприємна, теж питання, чи зрізали на якості задля ціни
+Але десь не біля шкіри і така ок]]></description><link>https://conspectus.r1a.nl/життя/одяг.html</link><guid isPermaLink="false">Життя/Одяг.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Fri, 12 Sep 2025 09:10:56 GMT</pubDate><enclosure url="https://conspectus.r1a.nl" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://conspectus.r1a.nl"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Тексти дз1]]></title><description><![CDATA[I am not a consultant; I am an insultant.Я не порадник - я (є) зневажник
 Я не консультант - я знаважант/задирант/ображантОчевидно потрібно зберегти риму та гру слів. При чому друге слово не існує, воно вигадане, але за принципом схожим до творення інших подібних за структурою слів, тож очевидно, що воно означає. Хотілося би зберегти неологізмність другого слова.Водночас хотілося би зберегти значення першого слова як такого, що можна уявити використаним у повсякденні - ймовірно фраза є відповіддю на чийсь закид про "консультанта".На жаль, я не знайшов багато перекладів consultant, які би підходили по змісту сюди: консультант, радник, порадник. Виникає дилема, адже слово "консультант" очевидно іншомовного походження, і якщо використати його, то відповідним другим словом теж буде змушене бути слово з не властивими мові конструкціями творення слова - з іншого ж боку "радник" не передає суті, якщо слово вжите не в правничому чи схожому до нього контексті.Я вибрав основною версією перекладу "порадника", адже це слово частіше вживається в повсякденних ситуаціях, хай і набагато рідше (наприклад, "Порадня" УКУ). Однак я теж зробив версію з "консультантом", адже в деяких контекстах це буде єдиним способом природного вжитку слова.Тоді я виписав декілька варіацій перекладу "insult" та спробував потворити з них слова з закінченнями "-а*ник" та "-ант".Для ритму я думав додати слово "є" в другій частині речення, однак це погіршує стиль речення, тож без кращих варіантів я вирішив його таки прибрати.радник, порадниккривда, образа, зневага, знущатися
 кривдник, ображач, задирака, зневажач, зневажник, знущальник]]></description><link>https://conspectus.r1a.nl/уку/тексти/тексти-дз1.html</link><guid isPermaLink="false">УКУ/Тексти/Тексти дз1.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Fri, 12 Sep 2025 11:55:56 GMT</pubDate></item><item><title><![CDATA[АКС Асистентство пропозиції]]></title><description><![CDATA[Сторінка "матеріали по C++" # Перманентна адреса... ... # Загальні міркування ... # ...Аналіз різних способів прочитати...Замість 6 посилань буде одне на опис цього усього. Усе одно якщо зараз нажати на якесь із цих ЛМС-івських "гіперпосилань", тебе перекине на ЛМС сторінку з описом посилання, з якої уже можна перейти на власне сторінку, куди ти там хочеш (клік на курс <a data-tooltip-position="top" aria-label="Архітектура комп'ютерних систем" data-href="Архітектура комп'ютерних систем" href="https://conspectus.r1a.nl/.html" class="internal-link" target="_self" rel="noopener nofollow">АКС</a> -&gt; клік на "Перманентна адреса..." -&gt; клік на власне https поислання), тож кількість кліків така зміна не збільшить - а от місця менше буде займатиЄдине, що можна лишити окремо, - це аналіз способів прочитати цілий файл у пам'ять, адже (мені здається) для нього важливо, аби його студенти самі випадково знаходили при пролистуванні (discoverability) - до решти ж посилань студенти якщо йдуть, то з наміром їх подивитися8 рядочків текстуоб'єднатидодати сюди?цей текст читають лише колицікавляться цим"Головні вимоги до виконання практичних" - це переказ іншого документу; містить просто bulletpoint-списочок
 "Підказки до виконання практичних" - дуже схоже, що просто список із 8 підказок<br>
@@ -63,45 +173,7 @@ mismatched наклейки
 Руки забиті,
 рухи неясні.
 Та голова -
-мета, бачу я.]]></description><link>https://conspectus.r1a.nl/життя/fun/вірші/мета.html</link><guid isPermaLink="false">Життя/Fun/Вірші/Мета.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 11 Sep 2025 21:35:39 GMT</pubDate></item><item><title><![CDATA[Психологія сприйняття]]></title><description><![CDATA[Гештальтпсихологія - досліджує сприйняття та мислення людиниМентальні зусилля:
-Когнітивне навантаження - чи ти все знаєш, що воно робить і як користуватися/чи пояснено
-Візуальне: Співвідношення контент/візуальне оформлення
-У т.ч. співвідношення корисна інформація/навігація Моторне навантаження - чи багато дій треба зробити
-Зовнішнє навантаження - подразники, що заважають ззовні
-На що орієнтується дизайнер при створенні:
-Цілі користувача
-Бізнес цілі
-Технічні обмеження
-Люди зазвичай сприймають:
-Спершу загальну картину
-Потім конкретні елементи
-Сприймається фігура та фон
-Якщо фігур кілька, то або одна стане частиною фону, або буде інтерфейс ментально поділений на два окремі світиСиметричне частіше сприймається як фігура
-Асиметричне як фонЯк виділити:
-Контрастний колір
-Тінь
-Напівпрозорий шар/блюр (напр задній фон при попапах стає темнішим)
-Перекриття
-Групування:
-Близькі елементи в одній групі; відстань відгруповує Відступи всередині групи мають бути меншими за відступи з іншими елементами (і це також означає, чим більший рівень групи (група інших груп), тим більші відступи) Роздільники
-Структурно (напр в одній паралельній лінії; чимось з'єднані тощо)
-Синхронно (об'єкти одночасно щось роблять, напр у всіх з'являється квадратик для виділення)
-Об'єкт набуває схожих характеристик, як інший, якщо:
-Помістити поруч щось з певними характеристиками
-Схожого розміру
-Основна кнопка має відрізнятися від іншихЯкщо багато схожого, складно знайти трохи відмінне
-Якщо купа елементів зі статусами, і більшість є "Активний", а кілька з попередженнями, то можна не показувати активні, а лише особливі - легше знайти
-]]></description><link>https://conspectus.r1a.nl/уку/дизайн/психологія-сприйняття.html</link><guid isPermaLink="false">УКУ/Дизайн/Психологія сприйняття.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 11 Sep 2025 12:23:49 GMT</pubDate></item><item><title><![CDATA[Теорія керування]]></title><link>https://conspectus.r1a.nl/уку/теорія-керування/теорія-керування.html</link><guid isPermaLink="false">УКУ/Теорія керування/Теорія керування.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 10 Sep 2025 13:53:06 GMT</pubDate></item><item><title><![CDATA[Вступ до текстів]]></title><description><![CDATA[Викидати слова, що абстрактні, не несуть самі по собі семантки
-Воно є добрим - воно добре
-Я перебуваю в авдиторії
-Під час прослуховування лекції, я записував нотатки (тут саме по собі слово має значення, але в контексті втрачає)Аналізи збиралися (-) vs Студенти сбиралися (+)
-Замінити:
-збирали
-збирано
-були зібрані
-Так менше неоднозначності
-Роботу написано Дмитром - наче безособове, але особа єЯкщо кілька слів однакової частини мови, можна розбавити іншими, і ймовірно текст стане протікати краще (особливо коли багато таких слів)
-Провінція Франції - Французька провінція]]></description><link>https://conspectus.r1a.nl/уку/тексти/вступ-до-текстів.html</link><guid isPermaLink="false">УКУ/Тексти/Вступ до текстів.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Tue, 09 Sep 2025 13:34:04 GMT</pubDate></item><item><title><![CDATA[Ланки дизайну]]></title><description><![CDATA[Піраміда UX:
+мета, бачу я.]]></description><link>https://conspectus.r1a.nl/життя/fun/вірші/мета.html</link><guid isPermaLink="false">Життя/Fun/Вірші/Мета.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 11 Sep 2025 21:35:39 GMT</pubDate></item><item><title><![CDATA[Ланки дизайну]]></title><description><![CDATA[Піраміда UX:
 Utility
 Usability
 Desirability
@@ -6933,21 +7005,7 @@ cos: exp: quintic: complicated: Для перших трьох функцій б
 <img alt="cos.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/cos.png" target="_self" style="width: 300px; max-width: 100%;"> <img alt="cos_zoomed.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/cos_zoomed.png" target="_self" style="width: 300px; max-width: 100%;"><br>
 <img alt="exp.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/exp.png" target="_self" style="width: 300px; max-width: 100%;"> <img alt="exp_zoomed.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/exp_zoomed.png" target="_self" style="width: 300px; max-width: 100%;"><br>
 <img alt="quintic.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/quintic.png" target="_self" style="width: 300px; max-width: 100%;"> <img alt="quintic_zoomed.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/quintic_zoomed.png" target="_self" style="width: 300px; max-width: 100%;"><br>
-<img alt="complicated.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/complicated.png" target="_self" style="width: 300px; max-width: 100%;"> <img alt="trapezoidal.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/trapezoidal.png" target="_self" style="width: 300px; max-width: 100%;">Як можемо побачити, метод трапецій набагато точніший як для малих, так і для великих розбиттів, при чому найрізноманітніших функційМало того, що сам графік розташований нижче, так він ще й швидше спадає(зі швидкістю ). На зближених графіках трохи далі від початку звичайне інтегрування ще активно спадає, а методом трапецій уже майже пряма лінія, тобто вона ще раніше стала малою]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/ма-сем2-додаткове.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Домашнє/МА сем2 додаткове.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate><enclosure url="https://conspectus.r1a.nl" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://conspectus.r1a.nl"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[МА Семінар 19.10]]></title><link>https://conspectus.r1a.nl/уку/математичний-аналіз/семінари/ма-семінар-19.10.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Семінари/МА Семінар 19.10.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Ма Семінар 26.10]]></title><link>https://conspectus.r1a.nl/уку/математичний-аналіз/семінари/ма-семінар-26.10.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Семінари/Ма Семінар 26.10.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Бієкція]]></title><description><![CDATA[Бієкція - <a data-href="Сюр'єкція" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/сюр'єкція.html" class="internal-link" target="_self" rel="noopener nofollow">Сюр'єкція</a> + <a data-href="Ін'єкція" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/ін'єкція.html" class="internal-link" target="_self" rel="noopener nofollow">Ін'єкція</a>, кожному y знайдеться x, при цьому тільки один x]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/бієкція.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Бієкція.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Зліченна множина]]></title><description><![CDATA[A - Зліченна множина, якщо вона <a data-tooltip-position="top" aria-label="Рівнопотужні множини" data-href="Рівнопотужні множини" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/рівнопотужні-множини.html" class="internal-link" target="_self" rel="noopener nofollow">Рівнопотужна</a> N]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/зліченна-множина.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Зліченна множина.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Ін'єкція]]></title><description><![CDATA[Ін'єкція - не існує y, в якого є два x; (∀x1 ∈ X)(∀x2 ∈ X) : {x1 != x2 ⇒ f(x1) != f(x2)}]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/ін'єкція.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Ін'єкція.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Кускова неперервність]]></title><description><![CDATA[ - кусково неперервна - приблизно те ж, що й просто неперервність, але можуть бути точки розриву(але скінченна кількість)Наприклад---
-disableZoom: false
-grid: true
-xLabel: x
-yLabel: y
----
-f(x) = floor(x)
----
-disableZoom: false
-grid: true
-xLabel: x
-yLabel: y
----
-f(x) = floor(3*min(max(0, x), 2))
-]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/кускова-неперервність.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Кускова неперервність.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Межа множини]]></title><description><![CDATA[Верхня(нижня) межа множини, якщо вона є обмежена зверху(знизу):
+<img alt="complicated.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/complicated.png" target="_self" style="width: 300px; max-width: 100%;"> <img alt="trapezoidal.png" src="https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/attachments/trapezoidal.png" target="_self" style="width: 300px; max-width: 100%;">Як можемо побачити, метод трапецій набагато точніший як для малих, так і для великих розбиттів, при чому найрізноманітніших функційМало того, що сам графік розташований нижче, так він ще й швидше спадає(зі швидкістю ). На зближених графіках трохи далі від початку звичайне інтегрування ще активно спадає, а методом трапецій уже майже пряма лінія, тобто вона ще раніше стала малою]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/домашнє/ма-сем2-додаткове.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Домашнє/МА сем2 додаткове.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate><enclosure url="https://conspectus.r1a.nl" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://conspectus.r1a.nl"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[МА Семінар 19.10]]></title><link>https://conspectus.r1a.nl/уку/математичний-аналіз/семінари/ма-семінар-19.10.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Семінари/МА Семінар 19.10.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Ма Семінар 26.10]]></title><link>https://conspectus.r1a.nl/уку/математичний-аналіз/семінари/ма-семінар-26.10.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Семінари/Ма Семінар 26.10.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Бієкція]]></title><description><![CDATA[Бієкція - <a data-href="Сюр'єкція" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/сюр'єкція.html" class="internal-link" target="_self" rel="noopener nofollow">Сюр'єкція</a> + <a data-href="Ін'єкція" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/ін'єкція.html" class="internal-link" target="_self" rel="noopener nofollow">Ін'єкція</a>, кожному y знайдеться x, при цьому тільки один x]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/бієкція.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Бієкція.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Зліченна множина]]></title><description><![CDATA[A - Зліченна множина, якщо вона <a data-tooltip-position="top" aria-label="Рівнопотужні множини" data-href="Рівнопотужні множини" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/рівнопотужні-множини.html" class="internal-link" target="_self" rel="noopener nofollow">Рівнопотужна</a> N]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/зліченна-множина.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Зліченна множина.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Ін'єкція]]></title><description><![CDATA[Ін'єкція - не існує y, в якого є два x; (∀x1 ∈ X)(∀x2 ∈ X) : {x1 != x2 ⇒ f(x1) != f(x2)}]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/ін'єкція.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Ін'єкція.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Межа множини]]></title><description><![CDATA[Верхня(нижня) межа множини, якщо вона є обмежена зверху(знизу):
 ]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/межа-множини.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Межа множини.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Множина потужності континууму]]></title><description><![CDATA[Множина, <a data-tooltip-position="top" aria-label="Рівнопотужні множини" data-href="Рівнопотужні множини" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/рівнопотужні-множини.html" class="internal-link" target="_self" rel="noopener nofollow">рівнопотужна</a> множині [0,1] - Множина потужності континууму, вона <a data-tooltip-position="top" aria-label="Незліченна множина" data-href="Незліченна множина" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/незліченна-множина.html" class="internal-link" target="_self" rel="noopener nofollow">незліченна</a>]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/множина-потужності-континууму.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Множина потужності континууму.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Не більш ніж зліченна множина]]></title><description><![CDATA[A - Не більш ніж зліченна множина, якщо вона скінченна або <a data-tooltip-position="top" aria-label="Зліченна множина" data-href="Зліченна множина" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/зліченна-множина.html" class="internal-link" target="_self" rel="noopener nofollow">зліченна</a>]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/не-більш-ніж-зліченна-множина.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Не більш ніж зліченна множина.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Незліченна множина]]></title><description><![CDATA[A - <a data-href="Незліченна множина" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/незліченна-множина.html" class="internal-link" target="_self" rel="noopener nofollow">Незліченна множина</a>, якщо вона нескінченна, не є <a data-tooltip-position="top" aria-label="Зліченна множина" data-href="Зліченна множина" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/зліченна-множина.html" class="internal-link" target="_self" rel="noopener nofollow">зліченною</a>]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/незліченна-множина.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Незліченна множина.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Однорідна функція]]></title><description><![CDATA[Однорідна функція -го виміру - :
 ]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/однорідна-функція.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Однорідна функція.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Рівнопотужні множини]]></title><description><![CDATA[A і B - Рівнопотужні множини, якщо існує <a data-href="Бієкція" href="https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/бієкція.html" class="internal-link" target="_self" rel="noopener nofollow">Бієкція</a> :
 ]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/рівнопотужні-множини.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Рівнопотужні множини.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Sun, 20 Aug 2023 10:58:19 GMT</pubDate></item><item><title><![CDATA[Симетрична різниця]]></title><description><![CDATA[ - Симетрична різниця, все, що не є в перетині A і B
