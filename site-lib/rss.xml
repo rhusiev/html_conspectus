@@ -1,4 +1,43 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Conspectus]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://conspectus.r1a.nl</link><image><url>https://conspectus.r1a.nl/site-lib/media/favicon.png</url><title>Conspectus</title><link>https://conspectus.r1a.nl</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 05 Oct 2025 17:40:35 GMT</lastBuildDate><atom:link href="https://conspectus.r1a.nl/site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 05 Oct 2025 17:40:28 GMT</pubDate><copyright><![CDATA[rad1an]]></copyright><ttl>60</ttl><dc:creator>rad1an</dc:creator><item><title><![CDATA[Типографія]]></title><description><![CDATA[це мистецтво впорядковувати інформацію
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Conspectus]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://conspectus.r1a.nl</link><image><url>https://conspectus.r1a.nl/site-lib/media/favicon.png</url><title>Conspectus</title><link>https://conspectus.r1a.nl</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 13 Oct 2025 19:16:02 GMT</lastBuildDate><atom:link href="https://conspectus.r1a.nl/site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 13 Oct 2025 19:15:57 GMT</pubDate><copyright><![CDATA[rad1an]]></copyright><ttl>60</ttl><dc:creator>rad1an</dc:creator><item><title><![CDATA[Подарунки]]></title><description><![CDATA[Стус, Семенко, Світличний збірки
+Тематична книга з рецептами (фільм, гра, тощо)
+Днд кубики
+Невеличка багаторазова пляшка до ~22см висоти
+Прозорий замок з інструментами, аби навчитися взламувати
+Велосипед; можливо електричний
+Пледик
+Приладдя для в'язання?
+3д принтер? bambu lab a1 mini combo
+пульт для дрона?
+ігровий контролер?Чай
+Обійми
+гарні карти
+Rubber duck колекція?Пінгвін плюшевий
+маленька парасолька, щоб в наплічник
+mismatched наклейки
+Міні шахова дошка
+скельники
+Складний ніж
+кращий розумний годинник
+"<a data-tooltip-position="top" aria-label="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" target="_self">Іде звізда чудна</a>" (чи щось таке)]]></description><link>https://conspectus.r1a.nl/життя/fun/подарунки.html</link><guid isPermaLink="false">Життя/Fun/Подарунки.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Mon, 13 Oct 2025 19:15:07 GMT</pubDate></item><item><title><![CDATA[Вступ до текстів]]></title><description><![CDATA[Викидати слова, що абстрактні, не несуть самі по собі семантики
+Воно є добрим - воно добре
+Я перебуваю в авдиторії
+Під час прослуховування лекції, я записував нотатки (тут саме по собі слово має значення, але в контексті втрачає)Українська любить дієслова
+Дієслова &gt; віддієслівні іменники (вони книжні зазвичай)
+Обговорювати гарно &gt; Обговорення гарнеПасиви
+Аналізи збиралися (-) vs Студенти збиралися (+)
+Замінити:
+збирали
+збирано
+були зібрані
+Так менше неоднозначності
+Роботу написано Дмитром - наче безособове, але особа є, не варто
+Якщо кілька слів однакової частини мови, можна розбавити іншими, і ймовірно текст стане протікати краще (особливо коли багато таких слів)
+Провінція Франції - Французька провінціяУникати багатозначних слів (загалом)Якщо можна уникнути сполучника, краще забратиУникати віддієслівних іменників (особливо коли багато)
+Напр "запобігання виникнення хвороби"
+Часто можна замінити дієсловомЧасто якщо тяжко дібрати слово-синонім,
+то можна натомість знайти більш або менш абстрактне
+По суті загальний сенс не зміниться(часто калька з російської)При лікуванні - під час лікування, у разі лікування, лікуючи
+При болях - маючи боліПо завершенні - після завершення, завершившиШляхом покращення - покращуючиБез знання - не знаючи]]></description><link>https://conspectus.r1a.nl/уку/тексти/вступ-до-текстів.html</link><guid isPermaLink="false">УКУ/Тексти/Вступ до текстів.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Tue, 07 Oct 2025 13:34:52 GMT</pubDate></item><item><title><![CDATA[Типографія]]></title><description><![CDATA[це мистецтво впорядковувати інформацію
 (щоб було розбірливе, легке для читання, красиве)x-height - висота ряду (baseline - літера "x")
 Базово: шрифти поєднуються, коли висота збігаєтьсяЄ ще висота великих літер (напр "R"), високих засічок ("l"), низьких засічок ("y")Розмір 14px - піксель не має сильно сенсу, бо там вектор
 Краще казати 14 кегль чи 14 points/пунктівКоли людина переходить на новий рядок, робить діагональний стрибок очима
@@ -21,20 +60,7 @@
 Ліценція і тд
 Якщо точно, то "шрифт" - це саме "Назва, Semi Bold". Сама та назва - це гарнітураfontjoy.com - можна подивитися, як поєднуються шрифти
 В ідеалі це має бути одна суперсім'я
-(пам'ятати про однакову висоту рядка, якщо не одна суперсім'я)]]></description><link>https://conspectus.r1a.nl/уку/дизайн/типографія.html</link><guid isPermaLink="false">УКУ/Дизайн/Типографія.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 02 Oct 2025 12:31:05 GMT</pubDate></item><item><title><![CDATA[Вступ до текстів]]></title><description><![CDATA[Викидати слова, що абстрактні, не несуть самі по собі семантики
-Воно є добрим - воно добре
-Я перебуваю в авдиторії
-Під час прослуховування лекції, я записував нотатки (тут саме по собі слово має значення, але в контексті втрачає)Дієслова &gt; віддієслівні іменники (вони книжні зазвичай)
-Обговорювати гарно &gt; Обговорення гарнеПасиви
-Аналізи збиралися (-) vs Студенти збиралися (+)
-Замінити:
-збирали
-збирано
-були зібрані
-Так менше неоднозначності
-Роботу написано Дмитром - наче безособове, але особа є, не варто
-Якщо кілька слів однакової частини мови, можна розбавити іншими, і ймовірно текст стане протікати краще (особливо коли багато таких слів)
-Провінція Франції - Французька провінціяУникати багатозначних слів (загалом)Якщо можна уникнути сполучника, краще забрати]]></description><link>https://conspectus.r1a.nl/уку/тексти/вступ-до-текстів.html</link><guid isPermaLink="false">УКУ/Тексти/Вступ до текстів.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Tue, 30 Sep 2025 12:35:06 GMT</pubDate></item><item><title><![CDATA[Мобільний дизайн]]></title><description><![CDATA[Мінімізувати вихід користувача з додатка - люди й так мають короткі сесії телефонів, а так якщо виходитимуть, то ймовірно забудуть вернутися
+(пам'ятати про однакову висоту рядка, якщо не одна суперсім'я)]]></description><link>https://conspectus.r1a.nl/уку/дизайн/типографія.html</link><guid isPermaLink="false">УКУ/Дизайн/Типографія.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 02 Oct 2025 12:31:05 GMT</pubDate></item><item><title><![CDATA[Мобільний дизайн]]></title><description><![CDATA[Мінімізувати вихід користувача з додатка - люди й так мають короткі сесії телефонів, а так якщо виходитимуть, то ймовірно забудуть вернутися
 Напр, додати natural search, щоб не треба було гуглити точну назвуНабагато легше розширити контент для більших екранів, ніж звузити для меншихНедоліки:
 Не стабільне з'єднання
 Переривання від інших додатків
@@ -51,26 +77,7 @@ iOS та Android часто мають різні патерни
 Велика перевага - різні датчики, в т.ч. gpsЧим ближче кнопка до периферії, тим більша має бути клікабельна зона
 Бо тим тяжче там людям влучатиЗазвичай найкраща навігація - bottom barВводити текст на телефоні тяжко
 Краще GPS, камера, буфер обміну тощоДумати маленькими екранами, а не купа інфи не одномуВарто уявляти, наче взаємодія відбувається в реальному світі (умовно з касиром замість е-комерс)
-Так легше зрозуміти, чи людині ок з такою взаємодією]]></description><link>https://conspectus.r1a.nl/уку/дизайн/мобільний-дизайн.html</link><guid isPermaLink="false">УКУ/Дизайн/Мобільний дизайн.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 25 Sep 2025 12:56:47 GMT</pubDate></item><item><title><![CDATA[Теорія керування]]></title><link>https://conspectus.r1a.nl/уку/теорія-керування/теорія-керування.html</link><guid isPermaLink="false">УКУ/Теорія керування/Теорія керування.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 14:56:00 GMT</pubDate></item><item><title><![CDATA[Кускова неперервність]]></title><description><![CDATA[ - кусково неперервна - приблизно те ж, що й просто неперервність, але можуть бути точки розриву(але скінченна кількість)Наприклад−10−8−6−4−20246810−10−8−6−4−20246810xy−10−8−6−4−20246810−10−8−6−4−20246810xy]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/кускова-неперервність.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Кускова неперервність.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 14:54:28 GMT</pubDate></item><item><title><![CDATA[Подарунки]]></title><description><![CDATA[Стус, Семенко, Світличний збірки
-Тематична книга з рецептами (фільм, гра, тощо)
-Днд кубики
-Невеличка багаторазова пляшка до ~22см висоти
-Прозорий замок з інструментами, аби навчитися взламувати
-Велосипед; можливо електричний
-Приладдя для в'язання?
-3д принтер? bambu lab a1 mini combo
-пульт для дрона?
-ігровий контролер?Чай
-Обійми
-гарні карти
-Rubber duck колекція?Пінгвін плюшевий
-маленька парасолька, щоб в наплічник
-mismatched наклейки
-Міні шахова дошка
-скельники
-Складний ніж
-кращий розумний годинник
-"<a data-tooltip-position="top" aria-label="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.yakaboo.ua/ua/ide-zvizda-chudna.html" target="_self">Іде звізда чудна</a>" (чи щось таке)]]></description><link>https://conspectus.r1a.nl/життя/fun/подарунки.html</link><guid isPermaLink="false">Життя/Fun/Подарунки.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 12:02:32 GMT</pubDate></item><item><title><![CDATA[Гарні практики]]></title><description><![CDATA[Закон Якоба: користувачі кумулятивно більшість часу проведуть в конкурентів
+Так легше зрозуміти, чи людині ок з такою взаємодією]]></description><link>https://conspectus.r1a.nl/уку/дизайн/мобільний-дизайн.html</link><guid isPermaLink="false">УКУ/Дизайн/Мобільний дизайн.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Thu, 25 Sep 2025 12:56:47 GMT</pubDate></item><item><title><![CDATA[Теорія керування]]></title><link>https://conspectus.r1a.nl/уку/теорія-керування/теорія-керування.html</link><guid isPermaLink="false">УКУ/Теорія керування/Теорія керування.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 14:56:00 GMT</pubDate></item><item><title><![CDATA[Кускова неперервність]]></title><description><![CDATA[ - кусково неперервна - приблизно те ж, що й просто неперервність, але можуть бути точки розриву(але скінченна кількість)Наприклад−10−8−6−4−20246810−10−8−6−4−20246810xy−10−8−6−4−20246810−10−8−6−4−20246810xy]]></description><link>https://conspectus.r1a.nl/уку/математичний-аналіз/терміни/кускова-неперервність.html</link><guid isPermaLink="false">УКУ/Математичний аналіз/Терміни/Кускова неперервність.md</guid><dc:creator><![CDATA[rad1an]]></dc:creator><pubDate>Wed, 24 Sep 2025 14:54:28 GMT</pubDate></item><item><title><![CDATA[Гарні практики]]></title><description><![CDATA[Закон Якоба: користувачі кумулятивно більшість часу проведуть в конкурентів
 Аналогічно: відносно поточної сторінки, більшість часу на інших сторінках цього продукту
 Варто не руйнувати уявлення людей про те, як користуватися, в порівнянні з іншими сторінками, конкурентамиError prevention
 Error recoveryПлейсхолдери в полях вводу зазвичай - зле. Хтось подумає ще, що щось уже введеноБажано переводити складність з користувача на систему (за можливості)
