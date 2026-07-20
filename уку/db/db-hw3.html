@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>db hw3</title><meta charset="utf-8"/><link rel="preload" href="../../index-47d9ba67.css" as="style"/><link rel="preload" href="../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 5"/><meta property="og:title" content="db hw3"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="db hw3"/><meta name="twitter:description" content="Homework 3 report 0."/><meta property="og:description" content="Homework 3 report 0."/><meta property="og:image:alt" content="Homework 3 report 0."/><meta property="twitter:domain" content="rhusiev.github.io/html_conspectus"/><meta property="og:url" content="https://rhusiev.github.io/html_conspectus/уку/db/db-hw3"/><meta property="twitter:url" content="https://rhusiev.github.io/html_conspectus/уку/db/db-hw3"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Homework 3 report 0."/><meta name="generator" content="Quartz"/><link href="../../index-47d9ba67.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://rhusiev.github.io/html_conspectus/уку/db/db-hw3-og-image.webp"/><meta property="og:image:url" content="https://rhusiev.github.io/html_conspectus/уку/db/db-hw3-og-image.webp"/><meta name="twitter:image" content="https://rhusiev.github.io/html_conspectus/уку/db/db-hw3-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="уку/db/db-hw3" data-basepath="/html_conspectus"><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Quartz 5</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Reader mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-220" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-220" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../уку/">УКУ</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../уку/db/">DB</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>db hw3</a></div></nav><h1 class="article-title">db hw3</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">2</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">tags</td><td class="note-properties-value metadata-property-value"><span class="note-properties-tags"></span></td></tr><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">aliases</td><td class="note-properties-value metadata-property-value"><span class="note-properties-list"></span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-07-20T15:37:57.724Z">Jul 20, 2026</time><span>45 min read</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="homework-3-report">Homework 3 report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#homework-3-report" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="0-introduction">0. Introduction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#0-introduction" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>When studying at Ukrainian Catholic University, it is common to apply for a scholarship and have to do some voluntary work fro stypendiyna hodynas. Moreover, the voluntary work is not specific to UCU, and many other people from other universities may need to manage their stypendiyna hodynas. Additionally, many volunteers do volunteer work not for stypendiyna hodynas and don’t study at universities. This document outlines steps to develop a DBS for the domain of voluntary work.</p>
+<h2 id="1-mission--objectives">1. Mission &amp; Objectives<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-mission--objectives" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The DBS is aimed at managing information about voluntary work of students and other volunteers.</p>
+<p>To accompish that the system needs to store information about how much time volunteers can spend, where they take money from and how much their universities require stypendiyna hodynas, if they do voluntary work for theirs sake. Additionally, lots of information about specific tasks is needed to efficiently manage volunteers’ work.</p>
+<p>Apart from this, not much information about the volunteers, universities and sources of money is needed.</p>
+<p>The basic operations that the system can be used for include:</p>
+<ul>
+<li>adding a volunteer and, if needed, their university,</li>
+<li>managing the information about universities’ requirements for stypendiyna hodynas and presenting it to volunteers that study there,</li>
+<li>managing the information about sources of money for a volunteer. Those can be employers giving grants to do work or individuals, from which a volunteer fundraises,</li>
+<li>managing volunteer’s work:
+<ul>
+<li>money, time (specific to each task of the work) needed,</li>
+<li>time periods, when the work needs to be done,</li>
+<li>locations, where the work needs to be done,</li>
+</ul>
+</li>
+<li>creating tasks and assigning them to volunteers.</li>
+</ul>
+<p>This system would allow for volunteers to manage their money and schedule for volunteering, so that they can make choices on whether to take new voluntary work. It would also allow employers to create tasks and add volunteers to them, possibly with grants assigned.</p>
+<p>Having the grasp of the system, we can see stakeholders for the system:</p>
+<ul>
+<li>students, working for stypendiyna hodynas,</li>
+<li>other volunteers, working on their own, needing to manage their time and money,</li>
+<li>universities, wanting to provide an easy way for their students to manage their stypendiyna hodynas,</li>
+<li>employers and individuals, giving money, are very important to the system, as many volunteers depend on them. However, they do not usually interact with the database system directly throught that. However, they can be employers, finding volunteers for voluntary work needed and even giving grants for that. Universities can also be employers in this context, as well as volunteers for themselves.</li>
+</ul>
+<p>The tasks and works:</p>
+<ul>
+<li>manage available resources, such as money and time, for volunteers:
+<ul>
+<li>monitor the amount of money available for a volunteer,</li>
+<li>monitor the amount of time available for a volunteer,</li>
+<li>set done and view the required number of stypendiyna hodynas at a university,</li>
+<li>add and view sources of money for a volunteer, such as employers and individuals,</li>
+</ul>
+</li>
+<li>manage volunteer’s work:
+<ul>
+<li>set and view the amount of money needed for a task,</li>
+<li>the amount of time needed for a task,</li>
+<li>the time periods, when the task needs to be done,</li>
+<li>the tasks that are part of the work, and the locations, where those tasks have to be done,</li>
+</ul>
+</li>
+<li>manage employers’ work:
+<ul>
+<li>create work,</li>
+<li>assign volunteers to work and possibly give grants for that.</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-requirements-elicitation">2. Requirements elicitation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-requirements-elicitation" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>As the input I have the mission and objectives of the system, including the stakeholders and tasks. I will now outline the requirements for the system.</p>
+<p>Task:</p>
+<ul>
+<li>has a set location and time, where and when it needs to be done,</li>
+<li>a description.</li>
+</ul>
+<p>Voluntary work:</p>
+<ul>
+<li>has a description,</li>
+<li>has a status,</li>
+<li>has a set amount of money needed to accomplish it,</li>
+<li>consists of tasks,</li>
+<li>can produce total time spent,</li>
+<li>has volunteers doing the work.</li>
+</ul>
+<p>Volunteer:</p>
+<ul>
+<li>has a name,</li>
+<li>has a set amount of money and time available,</li>
+<li>can raise more money through fundraising or get money from employers and their grants,</li>
+<li>can study at a university, which can require a set number of stypendiyna hodynas. Therefore has some number of hodynas already complete,</li>
+<li>can do voluntary work, probably for some employer, and receive stypendiyna hodynas (is stored at voluntary work itself).</li>
+</ul>
+<p>Employer:</p>
+<ul>
+<li>has a name,</li>
+<li>can have works, probably assigned to volunteers,</li>
+<li>can have some money available to give as grants to volunteers,</li>
+<li>can give those grants to volunteers.</li>
+</ul>
+<p>Individual:</p>
+<ul>
+<li>has a name,</li>
+<li>has some amount of money available to a volunteer.</li>
+</ul>
+<p>University:</p>
+<ul>
+<li>has a name,</li>
+<li>has the number of stypendiyna hodynas required for students,</li>
+<li>can also be an employer and have all their received, own and produced data.</li>
+</ul>
+<p>Now that I know which information is stored where and is got from where, I can define operations that are needed for the system on this information.</p>
+<p>As the stakeholders and actors in my case coincide, I just use the column actor.</p>
+<p>The flow diagram is not required to be presented here, so I just made a simple and not very nice one and used it to define the following operations:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Operation</th><th>Actor</th><th>Frequency</th><th>Performance</th><th>Inputs</th><th>Outputs</th></tr></thead><tbody><tr><td>Create a work</td><td>Employer</td><td>~1/day per stakeholder</td><td>&lt;1 sec</td><td>amount of money needed, description</td><td>A new work</td></tr><tr><td>Add a task to a work</td><td>Employer</td><td>~3/day per stakeholder</td><td>&lt;1 sec</td><td>description, location, time</td><td>A new task</td></tr><tr><td>Assign a volunteer</td><td>Employer</td><td>~2/day per stakeholder</td><td>&lt;1 sec</td><td>volunteer, work</td><td>volunteer being assigned to a work</td></tr><tr><td>Change the task</td><td>Employer</td><td>~2/day per stakeholder</td><td>&lt;1 sec</td><td>task, new description/ location/ time</td><td>task being changed</td></tr><tr><td>Change the work</td><td>Employer</td><td>~1/day per stakeholder</td><td>&lt;1 sec</td><td>work, edited description/ money / volunteers/ status</td><td>work being changed</td></tr><tr><td>Get total time of a work</td><td>Volunteer</td><td>~20/day per stakeholder</td><td>&lt;1 sec</td><td>work</td><td>total time needed for the work</td></tr><tr><td>Add/remove/change individual (its amount of money giving to a volunteer)</td><td>Volunteer</td><td>~1/week</td><td>&lt;1 sec</td><td>individual, new amount of money available</td><td>individual being changed/added/removed</td></tr><tr><td>Change money/time available, stypendiyna hodynas done, university studying in for a volunteer</td><td>Volunteer</td><td>~2/day per stakeholder</td><td>&lt;1 sec</td><td>volunteer, new money/time available, new stypendiyna hodynas done, university</td><td>volunteer being changed</td></tr><tr><td>Change money willing to give</td><td>Employer</td><td>~1/month per stakeholder</td><td>&lt;1 sec</td><td>employer, new money available</td><td>employer being changed</td></tr><tr><td>Change university requirements for stypendiyna hodynas</td><td>University</td><td>~1/month per stakeholder</td><td>&lt;1 sec</td><td>university, new number of stypendiyna hodynas required</td><td>university stypendiyna hodynas changed</td></tr></tbody></table></div>
+<p>Management of users (creation, deletion) is done by the system, and not by the actors themselves per se. However, they need to provide the system with their corresponding data.</p>
+<p>Considering the above table, I conclude that the system is not used too often by each individual user, but the biggest resources will be spent on handling getting the information. If the number of users reaches 100 (which is currently considered as the upper limit for the near future), there will still be only about ~2,000 requests a day, which is still insignificant, compared to other potential resources needed, outside of database management.</p>
+<p>I will now expand the data to include the data types and the approximate number of instances (for the upper limit, 100 users, ~80 of which are volunteers and ~50 employers - some volunteers can be employers to themselves):</p>
+<p>Task:</p>
+<ul>
+<li>has a set location (of type Location) and time (tuples of type Date), where and when it needs to be done,</li>
+<li>a description (of type Varchar(200)),</li>
+<li>~6 instances per voluntary work,</li>
+<li>included in operations:
+<ul>
+<li>add a task to a work,</li>
+<li>change the task,</li>
+<li>get total time of a work (uses each task’s time to get total per work).</li>
+</ul>
+</li>
+</ul>
+<p>Voluntary work:</p>
+<ul>
+<li>has a description (of type Varchar(200)),</li>
+<li>has a status (number code, of type Integer),</li>
+<li>has a set amount of money needed to accomplish it (of type Decimal),</li>
+<li>consists of tasks,</li>
+<li>can produce time spent (Date),</li>
+<li>has volunteers doing the work,</li>
+<li>~10 instances per employer, ~500 instances in total. Therefore,</li>
+<li>~3500 instances of tasks in total,</li>
+<li>included in operations:
+<ul>
+<li>create a work,</li>
+<li>add a task to a work,</li>
+<li>change the work,</li>
+<li>assign a volunteer,</li>
+<li>get total time of a work.</li>
+</ul>
+</li>
+</ul>
+<p>Volunteer:</p>
+<ul>
+<li>has a name (of type Varchar(50)),</li>
+<li>has a set amount of money and time available (of type Decimal and Date),</li>
+<li>can raise more money through fundraising or get money from employers and their grants (of type Decimal),</li>
+<li>can study at a university, which can require a set number of stypendiyna hodynas. Therefore has some number of hodynas already complete (of type Decimal),</li>
+<li>can do voluntary work, probably for some employer, and receive stypendiyna hodynas (is stored at voluntary work itself),</li>
+<li>~80 instances,</li>
+<li>included in operations:
+<ul>
+<li>change money/time available, stypendiyna hodynas done, university studying in for a volunteer,</li>
+<li>add/remove/change individual (its amount of money giving to a volunteer),</li>
+<li>assign a volunteer.</li>
+</ul>
+</li>
+</ul>
+<p>Employer:</p>
+<ul>
+<li>has a name (of type Varchar(50)),</li>
+<li>can have works, possibly assigned to volunteers,</li>
+<li>can have some money available to give as grants to volunteers (of type Decimal),</li>
+<li>can give those grants to volunteers,</li>
+<li>~50 instances,</li>
+<li>included in operations:
+<ul>
+<li>create a work,</li>
+<li>add a task to a work,</li>
+<li>assign a volunteer,</li>
+<li>change the task,</li>
+<li>change the work,</li>
+<li>change money willing to give.</li>
+</ul>
+</li>
+</ul>
+<p>Individual:</p>
+<ul>
+<li>has a name (of type Varchar(50)),</li>
+<li>has some amount of money available to a volunteer (of type Decimal),</li>
+<li>~1 instance per volunteer, so ~80 instances in total,</li>
+<li>included in operations:
+<ul>
+<li>add/remove/change individual (its amount of money giving to a volunteer).</li>
+</ul>
+</li>
+</ul>
+<p>University:</p>
+<ul>
+<li>has a name (of type Varchar(50)),</li>
+<li>has the number of stypendiyna hodynas required for students (of type Decimal),</li>
+<li>can also be an employer and have all their received, own and produced data,</li>
+<li>~3 instances,</li>
+<li>included in operations:
+<ul>
+<li>change university requirements for stypendiyna hodynas.</li>
+</ul>
+</li>
+</ul>
+<p>The system seems to be enough for the basic management system for the domain of voluntary work. However, it can still be expanded in the future, in particular, the tasks and voluntary work, to allow for more fine-grained control. For example, a better management, then just a set of volunteers responsible for voluntary work may be needed and more information about specific tasks, including the breakdown of volunteers per tasks.</p>
+<p>To desctibe this more formally, I will draw a UMLCD for each stakeholder. However, it is more like a part of the part 3, so I will do it there.</p>
+<h2 id="3-4-external-views--refined-conceptual-model">3-4. External Views &amp; Refined Conceptual Model<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-4-external-views--refined-conceptual-model" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Here is the general UMLCD view:
+<img src="../../уку/db/attachments/db-hw3-full.svg" alt="db hw3 full"/>{width=500px}</p>
+<p>Here is, what students (volunteers that also study at some university) can see:
+<img src="../../уку/db/attachments/db-hw3-student.svg" alt="db hw3 student"/>{width=500px}</p>
+<p>of course, students can only see employers, universities, individuals and works they interact with. The same will hold true for all next views too.</p>
+<p>Here is, what other volunteers can see:</p>
+<p><img src="../../уку/db/attachments/db-hw3-volunteer.svg" alt="db hw3 volunteer"/>{width=500px}</p>
+<p>Here is, what employers can see:</p>
+<p><img src="../../уку/db/attachments/db-hw3-employer.svg" alt="db hw3 employer"/>{width=500px}</p>
+<p>Here is, what universities can see:</p>
+<p><img src="../../уку/db/attachments/db-hw3-university.svg" alt="db hw3 university"/>{width=500px}</p>
+<p>Of course, the system can expand in the future to, for example, allow universities to see more information about their students. But for the current system, this is enough.</p>
+<p>Some of the notable changes from the previous homework:</p>
+<ul>
+<li>it seems very plausible for someone to give money to a volunteer to accomplish some work (not money for the volunteer to earn, but just to complete the task). Therefore I removed the Organization as an entity and gave every employer the ability to give money,</li>
+<li>as there is no requirement for generalizations and other complications, I simplified the system, so that Individual and Volunteer are separate entities, and not generalized from an employer,</li>
+<li>as each task can have its own time, I moved the time from the work to the task,</li>
+<li>I also added the status to the work, so that it can be easily seen, whether the work is done or not.</li>
+</ul>
+<h2 id="5-refined-logical-model--database">5. Refined Logical Model &amp; Database<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-refined-logical-model--database" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>I’ll do a similar diagram to hw2.</p>
+<p>There are a few things different from the previous homework:</p>
+<ul>
+<li><code>Volunteer</code> now has <code>money_available</code> and <code>stypendiyna_hodynas_done</code> in addition to <code>name</code> and <code>time_available</code>,</li>
+<li><code>Volunteer</code> and <code>Individual</code> now do not have their names as foreign keys from <code>Employer</code>,</li>
+<li>employers now own some works through <code>WorkOwner</code> table, with <code>workid</code> and <code>employername</code> fields (foreign keys from <code>VoluntaryWork</code> and <code>Employer</code> respectively)</li>
+<li>added <code>status</code> to <code>VoluntaryWork</code>,</li>
+<li><code>Volunteer</code>s are now assigned to work through <code>Assigning</code> table, with <code>volunteer_name</code> and <code>workid</code> fields (foreign keys from <code>Volunteer</code> and <code>VoluntaryWork</code> respectively),</li>
+<li>added <code>description</code>, <code>time_end</code> and <code>time_start</code> to <code>Task</code>, to better manage them, instead of having them global for the whole <code>VoluntaryWork</code>, and <code>time_*</code> in a separate table. It will allow for more granular control for users,</li>
+<li>there is no <code>DoingWorkFor</code> now, instead it is split into <code>Assigning</code> and <code>WorkOwner</code> tables, to allow for more flexibility in the future,</li>
+<li>there is no <code>Organization</code> now, as it is not needed for the current system, where any <code>Employer</code> can give money to a <code>Volunteer</code>,</li>
+<li><code>Fundraising</code> no longer stores the money raised. Instead, the <code>Individual</code> itself stores it,</li>
+<li><code>Employer</code> now has some money willing to give - <code>money_to_give</code>,</li>
+<li>some names were changed to snake_case for readability purposes.</li>
+</ul>
+<p><img src="../../уку/db/attachments/db-hw3-workbench-diagram.svg" alt="db hw3 workbench diagram"/>{width=600px}</p>
+<p>To create the database from nothing, I would need the following script:</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="sql" data-theme="github-light github-dark"><code data-language="sql" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> University (</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    name</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    stypendiyna_hodynas_required </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FLOAT</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment"> -- In hours</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Employer (</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    name</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    money_to_give </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FLOAT</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Volunteer (</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    name</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    money_available </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FLOAT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment">-- In $</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    time_available </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment">-- In seconds</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    stypendiyna_hodynas_done </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FLOAT</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment"> -- In hours</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Individual (</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    name</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    giving </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FLOAT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment"> -- In $</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Fundraising (</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    volunteer_name </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    individual_name </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (volunteer_name, individual_name),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (volunteer_name) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Volunteer (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (individual_name) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Individual (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> VoluntaryWork (</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    description</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">200</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    status</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> INT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    money_needed </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FLOAT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment">-- In $</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    workid </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> PRIMARY KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> WorkOwner (</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    workid </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    employername </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (workid, employername),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (workid) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> VoluntaryWork (workid),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (employername) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Employer (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Task (</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    description</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">200</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    location</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    time_start </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">Integer</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment">-- In seconds since 1970</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    time_end </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">Integer</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment">-- In seconds since 1970</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    taskno </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    workid </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (taskno, workid),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (workid) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> VoluntaryWork (workid)</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> VIEW</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> WorkTime </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">AS</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">SELECT</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">    VoluntaryWork</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">workid</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="function">    SUM</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">Task</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">time_end</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="operator"> -</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value"> Task</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">time_start</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">AS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> time_to_spend</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FROM</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    VoluntaryWork</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    LEFT JOIN</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Task </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">ON</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value"> VoluntaryWork</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">workid</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="operator"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value"> Task</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">workid</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">GROUP BY</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">    VoluntaryWork</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">workid</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Studying (</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    volunteer_name </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    university_name </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (volunteer_name, university_name),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (volunteer_name) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Volunteer (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (university_name) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> University (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> GivingGrants (</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    employer_name </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    volunteer_name </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    money_given </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">FLOAT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;" data-token-type="comment">-- In $</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (employer_name, volunteer_name),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (employer_name) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Employer (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (volunteer_name) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Volunteer (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">CREATE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;" data-token-type="function"> IF</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> EXISTS</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Assigning (</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    volunteer_name </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">VARCHAR</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;" data-token-type="value">50</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    workid </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INT</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> NOT NULL</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    PRIMARY KEY</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (volunteer_name, workid),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (volunteer_name) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Volunteer (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">),</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">    FOREIGN KEY</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        (workid) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">REFERENCES</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> VoluntaryWork (workid)</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span></code></pre></figure>
+<p>However, the task states that I need to convert the existing database.</p>
+<p>Here is the current state of the database, after the homework 2:</p>
+<pre><code>MariaDB [voluntary_engagements]> show tables;
++---------------------------------+
+| Tables_in_voluntary_engagements |
++---------------------------------+
+| DoingWorkFor                    |
+| Employer                        |
+| Fundraising                     |
+| GivingGrants                    |
+| Individual                      |
+| Organization                    |
+| Studying                        |
+| Task                            |
+| TimePeriod                      |
+| University                      |
+| VoluntaryWork                   |
+| Volunteer                       |
+| WorkTime                        |
++---------------------------------+
+13 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM DoingWorkFor;
++----------------+--------------+--------+
+| volunteername  | employername | workid |
++----------------+--------------+--------+
+| james bond     | sbu          |      3 |
+| radomyr husiev | donatsia     |      0 |
+| radomyr husiev | donatsia     |      1 |
+| radomyr husiev | donatsia     |      2 |
++----------------+--------------+--------+
+4 rows in set (0.157 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Employer;
++----------------+
+| name           |
++----------------+
+| boris johnson  |
+| donatsia       |
+| james bond     |
+| olaf scholz    |
+| radomyr husiev |
+| rishi sunak    |
+| sbu            |
+| softserve      |
++----------------+
+8 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Fundraising;
++----------------+----------------+-------------+
+| volunteername  | individualname | moneyraised |
++----------------+----------------+-------------+
+| radomyr husiev | boris johnson  |          50 |
++----------------+----------------+-------------+
+1 row in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM GivingGrants;
++------------------+----------------+------------+
+| organizationname | volunteername  | moneygiven |
++------------------+----------------+------------+
+| donatsia         | james bond     |    99999.9 |
+| softserve        | radomyr husiev |         50 |
++------------------+----------------+------------+
+2 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Individual;
++---------------+----------------+
+| willingtogive | name           |
++---------------+----------------+
+|            51 | boris johnson  |
+|            50 | radomyr husiev |
+|             0 | rishi sunak    |
++---------------+----------------+
+3 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Organization;
++-----------+
+| name      |
++-----------+
+| donatsia  |
+| sbu       |
+| softserve |
++-----------+
+3 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Studying;
++----------------+--------------------------------------+
+| volunteername  | universityname                       |
++----------------+--------------------------------------+
+| james bond     | Lviv Polytechnic National University |
+| radomyr husiev | Ukrainian Catholic University        |
++----------------+--------------------------------------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Task;
++-----------+--------+--------+
+| location  | taskno | workid |
++-----------+--------+--------+
+| Lectorium |      0 |      0 |
+| TsSh      |      0 |      1 |
+| Lectorium |      0 |      2 |
+| Moscow    |      0 |      3 |
+| Warehouse |      0 |      4 |
+| It Space  |      1 |      1 |
++-----------+--------+--------+
+6 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM TimePeriod;
++------------+------------+--------+
+| timestart  | timeend    | workid |
++------------+------------+--------+
+| 1710943200 | 1710954000 |      1 |
+| 1711029600 | 1711033200 |      0 |
+| 1711116000 | 1711119600 |      1 |
+| 1711195200 | 1711216800 |      2 |
+| 1711216800 | 1713895200 |      3 |
+| 1713632400 | 1713646800 |      4 |
++------------+------------+--------+
+6 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM University;
++--------------------------------------+--------------------------+
+| name                                 | stypendiynahodynasneeded |
++--------------------------------------+--------------------------+
+| Lviv Polytechnic National University |                        0 |
+| Ukrainian Catholic University        |                      500 |
++--------------------------------------+--------------------------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM VoluntaryWork;
++--------+-------------------------------------+-------------+
+| workid | workdescription                     | moneyneeded |
++--------+-------------------------------------+-------------+
+|      0 | Teach math for high school students |           0 |
+|      1 | Help with the Day of open doors     |           0 |
+|      2 | Organize a math competition         |         100 |
+|      3 | Doing a spy operation               |      100000 |
+|      4 | Sort humanitarian aid               |           0 |
++--------+-------------------------------------+-------------+
+5 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Volunteer;
++--------------+----------------+
+| canspendtime | name           |
++--------------+----------------+
+|      4200000 | james bond     |
+|       720000 | radomyr husiev |
++--------------+----------------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM WorkTime;
++--------+-------------+
+| workid | timetospend |
++--------+-------------+
+|      0 |        3600 |
+|      1 |       14400 |
+|      2 |       21600 |
+|      3 |     2678400 |
+|      4 |       14400 |
++--------+-------------+
+5 rows in set (0.002 sec)
+</code></pre>
+<p>As the database has changed substantially, I will first remove all the data and just change the schema, as it is only required to change the schema, not the data with it:</p>
+<pre><code>MariaDB [voluntary_engagements]> DELETE FROM DoingWorkFor;
+Query OK, 4 rows affected (0.086 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM Fundraising;
+Query OK, 1 row affected (0.048 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM GivingGrants;
+Query OK, 2 rows affected (0.107 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM Individual;
+Query OK, 3 rows affected (0.075 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM Organization;
+Query OK, 3 rows affected (0.028 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM Studying;
+Query OK, 2 rows affected (0.110 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM Task;
+Query OK, 6 rows affected (0.085 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM TimePeriod;
+Query OK, 6 rows affected (0.056 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM University;
+Query OK, 2 rows affected (0.062 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM VoluntaryWork;
+Query OK, 5 rows affected (0.042 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM Volunteer;
+Query OK, 2 rows affected (0.116 sec)
+
+MariaDB [voluntary_engagements]> DELETE FROM Employer;
+Query OK, 8 rows affected (0.058 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM WorkTime;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Volunteer;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM VoluntaryWork;
+Empty set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM University;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM TimePeriod;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Task;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Studying;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Organization;
+Empty set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Individual;
+Empty set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM GivingGrants;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Fundraising;
+Empty set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Employer;
+Empty set (0.000 sec)
+</code></pre>
+<p>Now, I will apply all the changes mentioned earlier:</p>
+<pre><code>ALTER TABLE Volunteer
+ADD money_available FLOAT;
+ALTER TABLE Volunteer
+ADD stypendiyna_hodynas_done FLOAT;
+ALTER TABLE Volunteer
+RENAME COLUMN canspendtime TO time_available;
+
+DROP TABLE IF EXISTS DoingWorkFor;
+CREATE TABLE IF NOT EXISTS WorkOwner (
+    workid INT NOT NULL,
+    employername VARCHAR(50) NOT NULL,
+    PRIMARY KEY (workid, employername),
+    FOREIGN KEY
+        (workid) REFERENCES VoluntaryWork (workid),
+    FOREIGN KEY
+        (employername) REFERENCES Employer (name)
+);
+
+ALTER TABLE VoluntaryWork
+ADD status INT;
+ALTER TABLE VoluntaryWork
+RENAME COLUMN workdescription TO description;
+ALTER TABLE VoluntaryWork
+RENAME COLUMN moneyneeded TO money_needed;
+
+CREATE TABLE IF NOT EXISTS Assigning (
+    volunteer_name VARCHAR(50) NOT NULL,
+    workid INT NOT NULL,
+    PRIMARY KEY (volunteer_name, workid),
+    FOREIGN KEY
+        (volunteer_name) REFERENCES Volunteer (name),
+    FOREIGN KEY
+        (workid) REFERENCES VoluntaryWork (workid)
+);
+
+DROP TABLE IF EXISTS TimePeriod;
+ALTER TABLE Task
+ADD description VARCHAR(200);
+ALTER TABLE Task
+ADD time_start INT;
+ALTER TABLE Task
+ADD time_end INT;
+
+CREATE TABLE IF NOT EXISTS GivingGrants (
+    employer_name VARCHAR(50) NOT NULL,
+    volunteer_name VARCHAR(50) NOT NULL,
+    money_given FLOAT NOT NULL, -- In $
+    PRIMARY KEY (employer_name, volunteer_name),
+    FOREIGN KEY
+        (employer_name) REFERENCES Employer (name),
+    FOREIGN KEY
+        (volunteer_name) REFERENCES Volunteer (name)
+);
+
+DROP TABLE IF EXISTS Organization;
+
+ALTER TABLE Fundraising
+DROP COLUMN moneyraised;
+ALTER TABLE Fundraising
+RENAME COLUMN volunteername to volunteer_name;
+ALTER TABLE Fundraising
+RENAME COLUMN individualname to individual_name;
+
+ALTER TABLE Employer
+ADD COLUMN money_to_give FLOAT;
+
+ALTER TABLE Individual
+RENAME COLUMN willingtogive TO giving;
+
+ALTER TABLE Studying
+RENAME COLUMN volunteername TO volunteer_name;
+ALTER TABLE Studying
+RENAME COLUMN universityname TO university_name;
+
+ALTER TABLE University
+RENAME COLUMN stypendiynahodynasneeded TO stypendiyna_hodynas_required;
+</code></pre>
+<p>The database now looks the following way:</p>
+<pre><code>MariaDB [voluntary_engagements]> show tables;
++---------------------------------+
+| Tables_in_voluntary_engagements |
++---------------------------------+
+| Assigning                       |
+| Employer                        |
+| Fundraising                     |
+| GivingGrants                    |
+| Individual                      |
+| Studying                        |
+| Task                            |
+| University                      |
+| VoluntaryWork                   |
+| Volunteer                       |
+| WorkOwner                       |
+| WorkTime                        |
++---------------------------------+
+12 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> describe Assigning;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| volunteer_name | varchar(50) | NO   | PRI | NULL    |       |
+| workid         | int(11)     | NO   | PRI | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe Employer;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| name          | varchar(50) | NO   | PRI | NULL    |       |
+| money_to_give | float       | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe Fundraising;
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| volunteer_name  | varchar(50) | NO   | PRI | NULL    |       |
+| individual_name | varchar(50) | NO   | PRI | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe GivingGrants;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| employer_name  | varchar(50) | NO   | PRI | NULL    |       |
+| volunteer_name | varchar(50) | NO   | PRI | NULL    |       |
+| money_given    | float       | NO   |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+3 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe Individual;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| name   | varchar(50) | NO   | PRI | NULL    |       |
+| giving | float       | NO   |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe Studying;
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| volunteer_name  | varchar(50) | NO   | PRI | NULL    |       |
+| university_name | varchar(50) | NO   | PRI | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe Task;
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| description | varchar(200) | NO   |     | NULL    |       |
+| location    | varchar(50)  | NO   |     | NULL    |       |
+| time_start  | int(11)      | NO   |     | NULL    |       |
+| time_end    | int(11)      | NO   |     | NULL    |       |
+| taskno      | int(11)      | NO   | PRI | NULL    |       |
+| workid      | int(11)      | NO   | PRI | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+6 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> describe University;
++------------------------------+-------------+------+-----+---------+-------+
+| Field                        | Type        | Null | Key | Default | Extra |
++------------------------------+-------------+------+-----+---------+-------+
+| name                         | varchar(50) | NO   | PRI | NULL    |       |
+| stypendiyna_hodynas_required | float       | YES  |     | NULL    |       |
++------------------------------+-------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe VoluntaryWork;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| description  | varchar(200) | NO   |     | NULL    |       |
+| status       | int(11)      | NO   |     | NULL    |       |
+| money_needed | float        | NO   |     | NULL    |       |
+| workid       | int(11)      | NO   | PRI | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+4 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> describe Volunteer;
++--------------------------+-------------+------+-----+---------+-------+
+| Field                    | Type        | Null | Key | Default | Extra |
++--------------------------+-------------+------+-----+---------+-------+
+| name                     | varchar(50) | NO   | PRI | NULL    |       |
+| money_available          | float       | NO   |     | NULL    |       |
+| time_available           | int(11)     | NO   |     | NULL    |       |
+| stypendiyna_hodynas_done | float       | YES  |     | NULL    |       |
++--------------------------+-------------+------+-----+---------+-------+
+4 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe WorkOwner;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| workid       | int(11)     | NO   | PRI | NULL    |       |
+| employername | varchar(50) | NO   | PRI | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> describe WorkTime;
++---------------+---------------+------+-----+---------+-------+
+| Field         | Type          | Null | Key | Default | Extra |
++---------------+---------------+------+-----+---------+-------+
+| workid        | int(11)       | NO   |     | NULL    |       |
+| time_to_spend | decimal(33,0) | YES  |     | NULL    |       |
++---------------+---------------+------+-----+---------+-------+
+2 rows in set (0.001 sec)
+</code></pre>
+<p>with <code>WorkTime</code> being a view to calculate the total time needed for a work.</p>
+<p>As I will need to repopulate the database anyway, I will do it after normalizing it to the 3NF.</p>
+<h2 id="6-normalization-to-3nf">6. Normalization to 3NF<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-normalization-to-3nf" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="normalization-to-1nf">Normalization to 1NF<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#normalization-to-1nf" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>It seems that my scheme is already in 1NF. Names (name (Individual), name (Volunteer), name (University), name (Employer); volunteer_name, individual_name, university_name, employer_name in Fundraising, Studying, GivingGrants, WorkOwner and Assigning) can’t be split into more atomic ones, as they are considered as one atomic identifier. Even if we wanted to split, it would be really hard to handle first, second, third etc names. Some people have lots of names, and some only one. Similarly for universities, we could split their names into name of city, remove the word “university” from each of their names and just leave the name itself, but many universities do not follow this style. While Lviv Polytechnic National University could be split into Lviv and Polytechnic National, there are many that do not, such as Ukrainian Catholic University, which instead of city has country, or Harvard University, which does not have its own name, but just uses the city’s name. Therefore, universities’ names are also atomic and lose sense, when one tries to decompose their names into different parts.</p>
+<p>Another thing, that could have been split, is the time, but it is already split into time_begin and time_end (in Task). Description (description (Task), description (VoluntaryWork)) also can’t be split further, similarly to names.</p>
+<p>Numbers are also unsplittable, as they will lose any sense by being separate digits (giving (Individual), time_available (Volunteer), money_available (Volunteer), stypendiyna_hodynas_done (Volunteer), stypendiyna_hodynas_required (University), money_given (GivingGrants), money_to_give (Employer), workid (Task), taskno (Task), workid (WorkOwner), workid (VoluntaryWork), money_needed (VoluntaryWork), status (VoluntaryWork), workid (Assigning)).</p>
+<p>Finally, location (Task) is also atomic, because if we split it further, there will be no sense if half-address to find the exact location to go to.</p>
+<h3 id="normalization-to-2nf">Normalization to 2NF<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#normalization-to-2nf" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>I will put <code>(P)</code> after the prime attributes. All the others are non-prime.</p>
+<p>Fundraising:
+volunteer_name (P) and individual_name (P) do not depend on each other, so the table is in 2NF.</p>
+<p>Individual:
+giving is fully dependent on name (P), so the table is in 2NF.</p>
+<p>Volunteer:
+money_available, time_available, stypendiyna_hodynas_done are fully dependent on name (P), so the table is in 2NF.</p>
+<p>Studying:
+volunteer_name (P) and university_name (P) do not depend on each other, so the table is in 2NF.</p>
+<p>University:
+stypendiyna_hodynas_required is fully dependent on name (P), so the table is in 2NF.</p>
+<p>GivingGrants:
+employer_name (P) and volunteer_name (P) do not depend on each other, and money_given is fully dependent on them together (not on one of them, as employers can give different amount of money to different volunteers), so the table is in 2NF.</p>
+<p>Employer:
+money_to_give is fully dependent on name (P), so the table is in 2NF.</p>
+<p>Task:
+description, location, time_start, time_end depend on taskno (P) and workid (P) together. They are different for different taskno and different for different workid, so there are no partial dependencies here. Therefore, the table is in 2NF.</p>
+<p>WorkOwner:
+workid (P) and employername (P) do not depend on each other, so the table is in 2NF.</p>
+<p>Assigning:
+volunteer_name (P) and workid (P) do not depend on each other, so the table is in 2NF.</p>
+<p>VoluntaryWork:
+description, money_needed, status are fully dependent on workid (P), so the table is in 2NF.</p>
+<h3 id="normalization-to-3nf">Normalization to 3NF<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#normalization-to-3nf" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Prime and non-prime attributes and functional dependencies are already defined in the previous substep.</p>
+<p>I will just check for transitive dependencies within tables.</p>
+<p>Fundraising:
+There are no non-prime attributes, so there are no transitive dependencies.</p>
+<p>Individual:
+There is only one non-prime attribute and one prime attribute, so there is no possibility for transitive dependencies.</p>
+<p>Volunteer:
+time_available does not depend on money_available (and vice versa), the same goes for stypendiyna_hodynas_done and money_available (and vice versa), time_available and stypendiyna_hodynas_needed (and vice versa), {money_available, time_available} and stypendiyna_hodynas_needed, {money_available, stypendiyna_hodynas_needed} and time_available, {time_available, stypendiyna_hodynas_needed} and money_available. Therefore there are no transitive dependencies.</p>
+<p>Studying:
+There are no non-prime attributes, so there are no transitive dependencies.</p>
+<p>University:
+There is only one non-prime attribute and one prime attribute, so there is no possibility for transitive dependencies.</p>
+<p>GivingGrants:
+There is only one non-prime attribute and two prime attributes, so there is no possibility for transitive dependencies.</p>
+<p>Employer:
+There is only one non-prime attribute and one prime attribute, so there is no possibility for transitive dependencies.</p>
+<p>Assigning:
+There are no non-prime attributes, so there are no transitive dependencies.</p>
+<p>WorkOwner:
+There are no non-prime attributes, so there are no transitive dependencies.</p>
+<p>VoluntaryWork:
+status does not define description or money_needed (and vice versa), money_needed does not define description (and vice versa), {description, money_needed} does not define status, {description, status} does not define money_needed, {money_needed, status} does not define description. Therefore there are no transitive dependencies.</p>
+<p>Task:
+time_end does not define time_start (the only requirement might be that time_end has to be larger than time_start, but this is not part of the database system, and rather a part of business logic), location or description (and vice versa), location does not define time_start or description (and vice versa), description does not define time_start (and vice versa), {time_start, time_end} does not define location,or description, {time_start, location} does not define description or time_end, {time_start, description} does not define location or time_end, {time_end, location} does not define description or time_start, {time_end, description} does not define location or time_start, {location, description} does not define time_start or time_end. Therefore there are no transitive dependencies.</p>
+<p>The database is now in 3NF.</p>
+<p>Throughout those normalization steps I did not lose any information, as I did not change the database - it was already normalized.</p>
+<p>Therefore, the resulting database after this step is the same as the one described previously, so there is no need to show its diagram again.</p>
+<h3 id="populating-the-database">Populating the database<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#populating-the-database" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Now, that the database is normalized, I will populate it with some data.</p>
+<p>I will take the data from the previous homework and refine it to be put in the new scheme. Here are the new CSV files I will use (they are heavily based on the CSV file from homework 2):</p>
+<p><img src="../../уку/db/attachments/db-hw3-csvs.png" alt="db hw3 csvs"/>{width=900px}</p>
+<p>I will use a similar script to the one from homework 2 to populate the database:</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="sql" data-theme="github-light github-dark"><code data-language="sql" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/university_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> University</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/employer_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Employer</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/volunteer_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Volunteer</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/individual_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Individual</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/voluntary_work_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> VoluntaryWork</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/task_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Task</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/studying_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Studying</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/giving_grants_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> GivingGrants</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/fundraising_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Fundraising</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/work_owner_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> WorkOwner</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">LOAD</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> DATA</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">INFILE </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string">&quot;/drive/Projects/ucu/db/hw3/assigning_hw3.csv&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">INTO</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword"> TABLE</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Assigning</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">FIELDS TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> ','</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">LINES TERMINATED </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;" data-token-type="keyword">BY</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;" data-token-type="string"> '\n'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span></code></pre></figure>
+<p>Here is the state of the database after populating it:</p>
+<pre><code>MariaDB [voluntary_engagements]> show tables;
++---------------------------------+
+| Tables_in_voluntary_engagements |
++---------------------------------+
+| Assigning                       |
+| Employer                        |
+| Fundraising                     |
+| GivingGrants                    |
+| Individual                      |
+| Studying                        |
+| Task                            |
+| University                      |
+| VoluntaryWork                   |
+| Volunteer                       |
+| WorkOwner                       |
+| WorkTime                        |
++---------------------------------+
+12 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Assigning;
++----------------+--------+
+| volunteer_name | workid |
++----------------+--------+
+| james bond     |      0 |
+| james bond     |      3 |
+| radomyr        |      0 |
+| radomyr        |      1 |
+| radomyr        |      2 |
++----------------+--------+
+5 rows in set (0.001 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Employer;
++-----------+---------------+
+| name      | money_to_give |
++-----------+---------------+
+| donatsia  |    4294970000 |
+| radomyr   |        999.99 |
+| sbu       |             0 |
+| softserve |            50 |
++-----------+---------------+
+4 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Fundraising;
++----------------+-----------------+
+| volunteer_name | individual_name |
++----------------+-----------------+
+| james bond     | joe biden       |
+| radomyr        | boris johnson   |
++----------------+-----------------+
+2 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM GivingGrants;
++---------------+----------------+-------------+
+| employer_name | volunteer_name | money_given |
++---------------+----------------+-------------+
+| donatsia      | james bond     |     99999.9 |
+| softserve     | radomyr        |          50 |
++---------------+----------------+-------------+
+2 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Individual;
++---------------+------------+
+| name          | giving     |
++---------------+------------+
+| boris johnson |         51 |
+| joe biden     | 1000000000 |
+| olaf scholz   |          0 |
+| rishi sunak   |          0 |
++---------------+------------+
+4 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Studying;
++----------------+--------------------------------------+
+| volunteer_name | university_name                      |
++----------------+--------------------------------------+
+| james bond     | Lviv Polytechnic National University |
+| radomyr        | Ukrainian Catholic University        |
++----------------+--------------------------------------+
+2 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Task;
++-------------------------+-----------+------------+------------+--------+--------+
+| description             | location  | time_start | time_end   | taskno | workid |
++-------------------------+-----------+------------+------------+--------+--------+
+| Make a lesson           | Lectorium | 1711029600 | 1711033200 |      0 |      0 |
+| Make a meeting          | TsSh      | 1711116000 | 1711119600 |      0 |      1 |
+| Make a competition      | Lectorium | 1711195200 | 1711216800 |      0 |      2 |
+| Hack [Reducted]         | Moscow    | 1711216800 | 1713895200 |      0 |      3 |
+| Tell students about UCU | It Space  | 1710943200 | 1710954000 |      1 |      1 |
++-------------------------+-----------+------------+------------+--------+--------+
+5 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM University;
++--------------------------------------+------------------------------+
+| name                                 | stypendiyna_hodynas_required |
++--------------------------------------+------------------------------+
+| Lviv Polytechnic National University |                            0 |
+| Ukrainian Catholic University        |                          500 |
++--------------------------------------+------------------------------+
+2 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM VoluntaryWork;
++-------------------------------------+--------+--------------+--------+
+| description                         | status | money_needed | workid |
++-------------------------------------+--------+--------------+--------+
+| Teach math for high school students |      0 |            0 |      0 |
+| Help with the Day of open doors     |      0 |            0 |      1 |
+| Organize a math competition         |      0 |          100 |      2 |
+| Doing a spy operation               |      0 |       100000 |      3 |
++-------------------------------------+--------+--------------+--------+
+4 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM Volunteer;
++------------+-----------------+----------------+--------------------------+
+| name       | money_available | time_available | stypendiyna_hodynas_done |
++------------+-----------------+----------------+--------------------------+
+| james bond |         4200000 |          65535 |                        0 |
+| radomyr    |               0 |          14400 |                        0 |
++------------+-----------------+----------------+--------------------------+
+2 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM WorkOwner;
++--------+--------------+
+| workid | employername |
++--------+--------------+
+|      0 | radomyr      |
+|      0 | softserve    |
+|      1 | donatsia     |
+|      2 | donatsia     |
+|      3 | sbu          |
++--------+--------------+
+5 rows in set (0.000 sec)
+
+MariaDB [voluntary_engagements]> SELECT * FROM WorkTime;
++--------+---------------+
+| workid | time_to_spend |
++--------+---------------+
+|      0 |          3600 |
+|      1 |         14400 |
+|      2 |         21600 |
+|      3 |       2678400 |
++--------+---------------+
+4 rows in set (0.002 sec)
+</code></pre>
+<p>The database is now populated with data.</p>
+<h2 id="7-9-develop--test-software">7-9. Develop &amp; Test Software<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-9-develop--test-software" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>I developed a simple CLI application that allows to interact with the database in the following ways:</p>
+<ul>
+<li>Getting all the data from a table - for development purposes.</li>
+<li>Operations, specified in part 2:
+<ul>
+<li>Creating a work.</li>
+<li>Adding tasks to a work.</li>
+<li>Assigning a volunteer to a work.</li>
+<li>Changing a task.</li>
+<li>Changing a work.</li>
+<li>Getting total time required for a work.</li>
+<li>Adding/removing/changing individuals.</li>
+<li>Changing money and time available, stypendiyna hodynas done and university studying in for a volunteer.</li>
+<li>Changing money of an employer giving.</li>
+<li>Changing university’s stypendiyna hodynas required.</li>
+</ul>
+</li>
+</ul>
+<p>The code for the application can be found at <a href="https://github.com/rhusiev-student/s4_db_hw3" class="external external-link">https://github.com/rhusiev-student/s4_db_hw3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>Now, I will run the application and show the test results. Here is an example of it for getting information from tables:</p>
+<pre><code>❯ bun run app.ts
+Connected to the MySQL database!
+? What operation would you like to perform? Get all volunteers
+All volunteers:
+┌───┬────────────┬─────────────────┬────────────────┬──────────────────────────┐
+│   │ name       │ money_available │ time_available │ stypendiyna_hodynas_done │
+├───┼────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 0 │ james bond │ 4200000         │ 65535          │ 0                        │
+│ 1 │ radomyr    │ 0               │ 14400          │ 0                        │
+└───┴────────────┴─────────────────┴────────────────┴──────────────────────────┘
+? What operation would you like to perform? Get all individuals
+All individuals:
+┌───┬───────────────┬────────────┐
+│   │ name          │ giving     │
+├───┼───────────────┼────────────┤
+│ 0 │ boris johnson │ 51         │
+│ 1 │ joe biden     │ 1000000000 │
+│ 2 │ olaf scholz   │ 0          │
+│ 3 │ rishi sunak   │ 0          │
+└───┴───────────────┴────────────┘
+? What operation would you like to perform? Get all universities
+All universities:
+┌───┬──────────────────────────────────────┬──────────────────────────────┐
+│   │ name                                 │ stypendiyna_hodynas_required │
+├───┼──────────────────────────────────────┼──────────────────────────────┤
+│ 0 │ Lviv Polytechnic National University │ 0                            │
+│ 1 │ Ukrainian Catholic University        │ 500                          │
+└───┴──────────────────────────────────────┴──────────────────────────────┘
+? What operation would you like to perform? Get all employers
+All employers:
+┌───┬───────────┬───────────────┐
+│   │ name      │ money_to_give │
+├───┼───────────┼───────────────┤
+│ 0 │ donatsia  │ 4294970000    │
+│ 1 │ radomyr   │ 999.99        │
+│ 2 │ sbu       │ 0             │
+│ 3 │ softserve │ 50            │
+└───┴───────────┴───────────────┘
+? What operation would you like to perform? Get all voluntary works
+All voluntary works:
+┌───┬─────────────────────────────────────┬────────┬──────────────┬────────┐
+│   │ description                         │ status │ money_needed │ workid │
+├───┼─────────────────────────────────────┼────────┼──────────────┼────────┤
+│ 0 │ Teach math for high school students │ 0      │ 0            │ 0      │
+│ 1 │ Help with the Day of open doors     │ 0      │ 0            │ 1      │
+│ 2 │ Organize a math competition         │ 0      │ 100          │ 2      │
+│ 3 │ Doing a spy operation               │ 0      │ 100000       │ 3      │
+└───┴─────────────────────────────────────┴────────┴──────────────┴────────┘
+? What operation would you like to perform? Get all tasks
+All tasks:
+┌───┬─────────────────────────┬───────────┬────────────┬────────────┬────────┬────────┐
+│   │ description             │ location  │ time_start │ time_end   │ taskno │ workid │
+├───┼─────────────────────────┼───────────┼────────────┼────────────┼────────┼────────┤
+│ 0 │ Make a lesson           │ Lectorium │ 1711029600 │ 1711033200 │ 0      │ 0      │
+│ 1 │ Make a meeting          │ TsSh      │ 1711116000 │ 1711119600 │ 0      │ 1      │
+│ 2 │ Make a competition      │ Lectorium │ 1711195200 │ 1711216800 │ 0      │ 2      │
+│ 3 │ Hack [Reducted]         │ Moscow    │ 1711216800 │ 1713895200 │ 0      │ 3      │
+│ 4 │ Tell students about UCU │ It Space  │ 1710943200 │ 1710954000 │ 1      │ 1      │
+└───┴─────────────────────────┴───────────┴────────────┴────────────┴────────┴────────┘
+? What operation would you like to perform? Get all fundraising relationships
+All fundraising relationships:
+┌───┬────────────────┬─────────────────┐
+│   │ volunteer_name │ individual_name │
+├───┼────────────────┼─────────────────┤
+│ 0 │ james bond     │ joe biden       │
+│ 1 │ radomyr        │ boris johnson   │
+└───┴────────────────┴─────────────────┘
+? What operation would you like to perform? Get all giving grants relationships
+All giving grants relationships:
+┌───┬───────────────┬────────────────┬─────────────┐
+│   │ employer_name │ volunteer_name │ money_given │
+├───┼───────────────┼────────────────┼─────────────┤
+│ 0 │ donatsia      │ james bond     │ 99999.9     │
+│ 1 │ softserve     │ radomyr        │ 50          │
+└───┴───────────────┴────────────────┴─────────────┘
+? What operation would you like to perform? Get all studying relationships
+All studying relationships:
+┌───┬────────────────┬──────────────────────────────────────┐
+│   │ volunteer_name │ university_name                      │
+├───┼────────────────┼──────────────────────────────────────┤
+│ 0 │ james bond     │ Lviv Polytechnic National University │
+│ 1 │ radomyr        │ Ukrainian Catholic University        │
+└───┴────────────────┴──────────────────────────────────────┘
+? What operation would you like to perform? Get all work owners
+All work owners:
+┌───┬────────┬──────────────┐
+│   │ workid │ employername │
+├───┼────────┼──────────────┤
+│ 0 │ 0      │ radomyr      │
+│ 1 │ 0      │ softserve    │
+│ 2 │ 1      │ donatsia     │
+│ 3 │ 2      │ donatsia     │
+│ 4 │ 3      │ sbu          │
+└───┴────────┴──────────────┘
+? What operation would you like to perform? Get all assignments
+All assignments:
+┌───┬────────────────┬────────┐
+│   │ volunteer_name │ workid │
+├───┼────────────────┼────────┤
+│ 0 │ james bond     │ 0      │
+│ 1 │ james bond     │ 3      │
+│ 2 │ radomyr        │ 0      │
+│ 3 │ radomyr        │ 1      │
+│ 4 │ radomyr        │ 2      │
+└───┴────────────────┴────────┘
+</code></pre>
+<p>Here is the view when starting the application:</p>
+<pre><code>❯ bun run app.ts
+Connected to the MySQL database!
+? What operation would you like to perform? 
+  Exit 
+  Create a work 
+❯ Add a task to a work 
+  Assign a volunteer 
+  Change a task 
+  Change a work 
+  Get total time of a work 
+(Move up and down to reveal more choices)
+</code></pre>
+<p>Here are operations done:</p>
+<h3 id="creating-a-work">Creating a work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#creating-a-work" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>? What operation would you like to perform? Create a work
+? Enter the work description: Make dekanat site
+? Enter the amount of money needed for the work: 0
+Work created successfully!
+? What operation would you like to perform? Get all voluntary works
+All voluntary works:
+┌───┬─────────────────────────────────────┬────────┬──────────────┬────────┐
+│   │ description                         │ status │ money_needed │ workid │
+├───┼─────────────────────────────────────┼────────┼──────────────┼────────┤
+│ 0 │ Teach math for high school students │ 0      │ 0            │ 0      │
+│ 1 │ Help with the Day of open doors     │ 0      │ 0            │ 1      │
+│ 2 │ Organize a math competition         │ 0      │ 100          │ 2      │
+│ 3 │ Doing a spy operation               │ 0      │ 100000       │ 3      │
+│ 4 │ Make dekanat site                   │ 0      │ 0            │ 4      │
+└───┴─────────────────────────────────────┴────────┴──────────────┴────────┘
+</code></pre>
+<h3 id="adding-tasks-to-a-work">Adding tasks to a work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#adding-tasks-to-a-work" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>? What operation would you like to perform? Add a task to a work
+? Enter the work ID: 4
+? Enter the task description: Make landing page
+? Enter the task location: UCU
+? Enter the task start time (in seconds since 1970): 1710943200
+? Enter the task end time (in seconds since 1970): 1710943400
+Task added successfully!
+? What operation would you like to perform? Get all tasks
+All tasks:
+┌───┬─────────────────────────┬───────────┬────────────┬────────────┬────────┬────────┐
+│   │ description             │ location  │ time_start │ time_end   │ taskno │ workid │
+├───┼─────────────────────────┼───────────┼────────────┼────────────┼────────┼────────┤
+│ 0 │ Make a lesson           │ Lectorium │ 1711029600 │ 1711033200 │ 0      │ 0      │
+│ 1 │ Make a meeting          │ TsSh      │ 1711116000 │ 1711119600 │ 0      │ 1      │
+│ 2 │ Make a competition      │ Lectorium │ 1711195200 │ 1711216800 │ 0      │ 2      │
+│ 3 │ Hack [Reducted]         │ Moscow    │ 1711216800 │ 1713895200 │ 0      │ 3      │
+│ 4 │ Tell students about UCU │ It Space  │ 1710943200 │ 1710954000 │ 1      │ 1      │
+│ 5 │ Make landing page       │ UCU       │ 1710943200 │ 1710943400 │ 1      │ 4      │
+└───┴─────────────────────────┴───────────┴────────────┴────────────┴────────┴────────┘
+</code></pre>
+<h3 id="assigning-a-volunteer-to-a-work">Assigning a volunteer to a work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#assigning-a-volunteer-to-a-work" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>? What operation would you like to perform? Assign a volunteer
+? Enter the volunteer name: radomyr
+? Enter the work ID: 4
+Volunteer assigned successfully!
+? What operation would you like to perform? Get all assignments
+All assignments:
+┌───┬────────────────┬────────┐
+│   │ volunteer_name │ workid │
+├───┼────────────────┼────────┤
+│ 0 │ james bond     │ 0      │
+│ 1 │ james bond     │ 3      │
+│ 2 │ radomyr        │ 0      │
+│ 3 │ radomyr        │ 1      │
+│ 4 │ radomyr        │ 2      │
+│ 5 │ radomyr        │ 4      │
+└───┴────────────────┴────────┘
+</code></pre>
+<h3 id="changing-a-task">Changing a task<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#changing-a-task" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>? What operation would you like to perform? Change a task
+? Enter the task number: 1
+? Enter the work ID: 4
+? Enter the new task description (or leave blank to keep the current one): 
+? Enter the new task location (or leave blank to keep the current one): remote
+? Enter the new task start time (in seconds since 1970) (or leave blank to keep the current one): 
+? Enter the new task end time (in seconds since 1970) (or leave blank to keep the current one): 
+Task updated successfully!
+? What operation would you like to perform? Get all tasks
+All tasks:
+┌───┬─────────────────────────┬───────────┬────────────┬────────────┬────────┬────────┐
+│   │ description             │ location  │ time_start │ time_end   │ taskno │ workid │
+├───┼─────────────────────────┼───────────┼────────────┼────────────┼────────┼────────┤
+│ 0 │ Make a lesson           │ Lectorium │ 1711029600 │ 1711033200 │ 0      │ 0      │
+│ 1 │ Make a meeting          │ TsSh      │ 1711116000 │ 1711119600 │ 0      │ 1      │
+│ 2 │ Make a competition      │ Lectorium │ 1711195200 │ 1711216800 │ 0      │ 2      │
+│ 3 │ Hack [Reducted]         │ Moscow    │ 1711216800 │ 1713895200 │ 0      │ 3      │
+│ 4 │ Tell students about UCU │ It Space  │ 1710943200 │ 1710954000 │ 1      │ 1      │
+│ 5 │ Make landing page       │ remote    │ 1710943200 │ 1710943400 │ 1      │ 4      │
+└───┴─────────────────────────┴───────────┴────────────┴────────────┴────────┴────────┘
+</code></pre>
+<h3 id="changing-a-work">Changing a work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#changing-a-work" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>? What operation would you like to perform? Change a work
+? Enter the work ID: 4
+? Enter the new work description (or leave blank to keep the current one): 
+? Enter the new amount of money needed for the work (or leave blank to keep the current one): 1
+? Enter the new work status (or leave blank to keep the current one): 1
+Work updated successfully!
+? What operation would you like to perform? Get all voluntary works
+All voluntary works:
+┌───┬─────────────────────────────────────┬────────┬──────────────┬────────┐
+│   │ description                         │ status │ money_needed │ workid │
+├───┼─────────────────────────────────────┼────────┼──────────────┼────────┤
+│ 0 │ Teach math for high school students │ 0      │ 0            │ 0      │
+│ 1 │ Help with the Day of open doors     │ 0      │ 0            │ 1      │
+│ 2 │ Organize a math competition         │ 0      │ 100          │ 2      │
+│ 3 │ Doing a spy operation               │ 0      │ 100000       │ 3      │
+│ 4 │ Make dekanat site                   │ 1      │ 1            │ 4      │
+└───┴─────────────────────────────────────┴────────┴──────────────┴────────┘
+</code></pre>
+<h3 id="removing-an-individual">Removing an individual<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#removing-an-individual" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>? What operation would you like to perform? Add/remove/change individual
+? What operation would you like to perform? Remove individual
+? Enter the individual name: olaf scholz
+Individual removed successfully!
+? What operation would you like to perform? Get all individuals
+All individuals:
+┌───┬───────────────┬────────────┐
+│   │ name          │ giving     │
+├───┼───────────────┼────────────┤
+│ 0 │ boris johnson │ 51         │
+│ 1 │ joe biden     │ 1000000000 │
+│ 2 │ rishi sunak   │ 0          │
+└───┴───────────────┴────────────┘
+</code></pre>
+<h3 id="adding-an-individual">Adding an individual<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#adding-an-individual" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>? What operation would you like to perform? Add/remove/change individual
+? What operation would you like to perform? Add individual
+? Enter the individual name: olaf sholz
+? Enter the amount of money the individual is giving (or leave blank for removal): 50
+? Enter the volunteer name (or leave blank for no volunteer): radomyr
+Individual added successfully!
+? What operation would you like to perform? Get all individuals
+All individuals:
+┌───┬───────────────┬────────────┐
+│   │ name          │ giving     │
+├───┼───────────────┼────────────┤
+│ 0 │ boris johnson │ 51         │
+│ 1 │ joe biden     │ 1000000000 │
+│ 2 │ olaf sholz    │ 50         │
+│ 3 │ rishi sunak   │ 0          │
+└───┴───────────────┴────────────┘
+? What operation would you like to perform? Get all fundraising relationships
+All fundraising relationships:
+┌───┬────────────────┬─────────────────┐
+│   │ volunteer_name │ individual_name │
+├───┼────────────────┼─────────────────┤
+│ 0 │ james bond     │ joe biden       │
+│ 1 │ radomyr        │ boris johnson   │
+│ 2 │ radomyr        │ olaf sholz      │
+└───┴────────────────┴─────────────────┘
+</code></pre>
+<h3 id="getting-all-tasks-belonging-to-a-work">Getting all tasks belonging to a work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#getting-all-tasks-belonging-to-a-work" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><code>&quot;SELECT * FROM Task WHERE workid = &lt;workid>&quot;</code></p>
+<pre><code>? What operation would you like to perform? Get work tasks
+? Enter the work ID: 1
+Tasks for the work:
+┌───┬─────────────────────────┬──────────┬────────────┬────────────┬────────┬────────┐
+│   │ description             │ location │ time_start │ time_end   │ taskno │ workid │
+├───┼─────────────────────────┼──────────┼────────────┼────────────┼────────┼────────┤
+│ 0 │ Make a meeting          │ TsSh     │ 1711116000 │ 1711119600 │ 0      │ 1      │
+│ 1 │ Tell students about UCU │ It Space │ 1710943200 │ 1710954000 │ 1      │ 1      │
+└───┴─────────────────────────┴──────────┴────────────┴────────────┴────────┴────────┘
+</code></pre>
+<h3 id="getting-total-time-a-volunteer-has-to-spend-for-all-their-works">Getting total time a volunteer has to spend for all their works<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#getting-total-time-a-volunteer-has-to-spend-for-all-their-works" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><code>&quot;SELECT SUM(time_end - time_start) as totalTime FROM Task WHERE workid IN (SELECT workid FROM Assigning WHERE volunteer_name = &lt;volunteer_name>)&quot;</code></p>
+<pre><code>? What operation would you like to perform? Get total time of all works a volunteer is assigned to
+? Enter the volunteer name: radomyr
+Total time of all works the volunteer is assigned to: 39800 seconds
+</code></pre>
+<h3 id="getting-tasks-done-remotely">Getting tasks done remotely<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#getting-tasks-done-remotely" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><code>&quot;SELECT * FROM Task WHERE location = 'remote'&quot;</code></p>
+<pre><code>? What operation would you like to perform? Get tasks done remotely
+Tasks done remotely:
+┌───┬───────────────────┬──────────┬────────────┬────────────┬────────┬────────┐
+│   │ description       │ location │ time_start │ time_end   │ taskno │ workid │
+├───┼───────────────────┼──────────┼────────────┼────────────┼────────┼────────┤
+│ 0 │ Make landing page │ remote   │ 1710943200 │ 1710943400 │ 1      │ 4      │
+└───┴───────────────────┴──────────┴────────────┴────────────┴────────┴────────┘
+</code></pre>
+<h3 id="results">Results<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#results" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>As we could see, the application works as expected on the tests for selected operations.</p>
+<h3 id="other-operations">Other operations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#other-operations" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>There are other operations that were done, but not tested as thoroughly. There is also plenty room for improvments of safety, such as not being able to do all operations for any user, but checking what operations can be done by whom.</p>
+<p>For example, a volunteer might be able to change only their own data: money, individuals etc; employers theirs: their voluntary works and tasks; universities only stypendiyna hodynas required; etc.</p>
+<p>Additionally, users should not be able to not only change, but also see some data. For example, volunteers might be able to see their voluntary works assigned by employers, but not change. At the same time universities should not be able to see voluntary works at all.</p>
+<h2 id="10-conclusion">10. Conclusion<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10-conclusion" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The goal of this project was to design and implement a database system for managing voluntary work, catering to the needs of various stakeholders such as volunteers, employers, and universities. The report outlines the process of identifying the mission, objectives, and requirements for the system, followed by the development of a conceptual model, logical model, and physical database design.</p>
+<p>The system was designed to facilitate the management of volunteer resources, including time and money, as well as the creation and assignment of tasks and voluntary work. It incorporates entities such as volunteers, employers, universities, individuals, voluntary work, and tasks, along with their respective attributes and relationships.</p>
+<p>The report details the normalization process, ensuring that the database adheres to the third normal form (3NF), minimizing data redundancy and maintaining data integrity. The final database schema was presented, and the necessary SQL scripts for creating and populating the database were provided.</p>
+<p>A command-line interface (CLI) application was developed to interact with the database, allowing users to perform various operations such as creating voluntary work, adding tasks, assigning volunteers, changing tasks and work details, managing individual donors, and retrieving information about volunteers, employers, universities, and voluntary work.</p>
+<p>The application was tested with various scenarios, demonstrating its ability to handle the specified operations successfully. The report includes examples of the application’s output, showcasing the functionality of creating work, adding tasks, assigning volunteers, changing tasks and work details, managing individual donors, and retrieving information from the database.</p>
+<p>While the application meets the basic requirements outlined in the report, there is room for improvement in terms of access control and user permissions. Specifically, it is recommended to implement a more robust system where volunteers, employers, universities, and other stakeholders have specific permissions and restrictions on the operations they can perform and the data they can access.</p>
+<p>Overall, the system addresses the core requirements and objectives, enabling efficient management of volunteer resources, tasks, and work assignments. With further enhancements in access control and user permissions, the system can provide a more secure and tailored experience for different stakeholders involved in voluntary work initiatives.</p></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-66" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#homework-3-report" data-for="homework-3-report">Homework 3 report</a></li><li class="depth-1"><a href="#0-introduction" data-for="0-introduction">0. Introduction</a></li><li class="depth-1"><a href="#1-mission--objectives" data-for="1-mission--objectives">1. Mission &amp; Objectives</a></li><li class="depth-1"><a href="#2-requirements-elicitation" data-for="2-requirements-elicitation">2. Requirements elicitation</a></li><li class="depth-1"><a href="#3-4-external-views--refined-conceptual-model" data-for="3-4-external-views--refined-conceptual-model">3-4. External Views &amp; Refined Conceptual Model</a></li><li class="depth-1"><a href="#5-refined-logical-model--database" data-for="5-refined-logical-model--database">5. Refined Logical Model &amp; Database</a></li><li class="depth-1"><a href="#6-normalization-to-3nf" data-for="6-normalization-to-3nf">6. Normalization to 3NF</a></li><li class="depth-2"><a href="#normalization-to-1nf" data-for="normalization-to-1nf">Normalization to 1NF</a></li><li class="depth-2"><a href="#normalization-to-2nf" data-for="normalization-to-2nf">Normalization to 2NF</a></li><li class="depth-2"><a href="#normalization-to-3nf" data-for="normalization-to-3nf">Normalization to 3NF</a></li><li class="depth-2"><a href="#populating-the-database" data-for="populating-the-database">Populating the database</a></li><li class="depth-1"><a href="#7-9-develop--test-software" data-for="7-9-develop--test-software">7-9. Develop &amp; Test Software</a></li><li class="depth-2"><a href="#creating-a-work" data-for="creating-a-work">Creating a work</a></li><li class="depth-2"><a href="#adding-tasks-to-a-work" data-for="adding-tasks-to-a-work">Adding tasks to a work</a></li><li class="depth-2"><a href="#assigning-a-volunteer-to-a-work" data-for="assigning-a-volunteer-to-a-work">Assigning a volunteer to a work</a></li><li class="depth-2"><a href="#changing-a-task" data-for="changing-a-task">Changing a task</a></li><li class="depth-2"><a href="#changing-a-work" data-for="changing-a-work">Changing a work</a></li><li class="depth-2"><a href="#removing-an-individual" data-for="removing-an-individual">Removing an individual</a></li><li class="depth-2"><a href="#adding-an-individual" data-for="adding-an-individual">Adding an individual</a></li><li class="depth-2"><a href="#getting-all-tasks-belonging-to-a-work" data-for="getting-all-tasks-belonging-to-a-work">Getting all tasks belonging to a work</a></li><li class="depth-2"><a href="#getting-total-time-a-volunteer-has-to-spend-for-all-their-works" data-for="getting-total-time-a-volunteer-has-to-spend-for-all-their-works">Getting total time a volunteer has to spend for all their works</a></li><li class="depth-2"><a href="#getting-tasks-done-remotely" data-for="getting-tasks-done-remotely">Getting tasks done remotely</a></li><li class="depth-2"><a href="#results" data-for="results">Results</a></li><li class="depth-2"><a href="#other-operations" data-for="other-operations">Other operations</a></li><li class="depth-1"><a href="#10-conclusion" data-for="10-conclusion">10. Conclusion</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-503771fb.js" type="module" data-persist="true"></script></html>
